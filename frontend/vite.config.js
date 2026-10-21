@@ -1,22 +1,30 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// Dev server is bound to 0.0.0.0 so the Arena live preview proxy can reach it.
-// /api is proxied to the FastAPI backend on port 8000 (same origin for the browser).
+// Fully static build: the curriculum ships as JSON in the bundle and grading
+// runs in the browser, so there is no API to proxy and no server to deploy.
+//
+// Dev server binds 0.0.0.0 so the host's preview proxy can reach it.
 export default defineConfig({
   plugins: [react()],
+  base: '/',
   server: {
     host: '0.0.0.0',
     port: 5173,
     strictPort: true,
     allowedHosts: true,
     hmr: { protocol: 'wss', clientPort: 443 },
-    proxy: {
-      '/api': { target: 'http://127.0.0.1:8000', changeOrigin: true },
-    },
+  },
+  preview: {
+    host: '0.0.0.0',
+    port: 4173,
+    strictPort: true,
+    allowedHosts: true,
   },
   build: {
-    outDir: '../backend/static_app',
+    outDir: 'dist',
     emptyOutDir: true,
+    sourcemap: false,
+    chunkSizeWarningLimit: 1200,
   },
 })

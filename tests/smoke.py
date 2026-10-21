@@ -1,16 +1,18 @@
-"""End-to-end walkthrough of the drill pipeline (needs the app running).
+"""End-to-end walkthrough of the drill pipeline against the dev server.
 
     python3 tests/smoke.py            # app on :5173, API on :8000
 """
-import asyncio, json, urllib.request
+import asyncio, json
+from pathlib import Path
 from playwright.async_api import async_playwright
 
 URL = "http://localhost:5173/"
-API = "http://localhost:8000/api"
+DATA = json.loads((Path(__file__).resolve().parent.parent / "frontend/src/data/curriculum.json").read_text())
+BY_ID = {s["id"]: s for s in DATA["snippets"]}
 
 
 def snippet(sid):
-    return json.loads(urllib.request.urlopen(f"{API}/snippets/{sid}").read())
+    return BY_ID[sid]
 
 
 async def main():

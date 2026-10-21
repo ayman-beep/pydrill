@@ -48,7 +48,7 @@ export default function App() {
     api
       .curriculum()
       .then(setCurriculum)
-      .catch((e) => setLoadError(e.message || 'Cannot reach the API server'))
+      .catch((e) => setLoadError(e.message || 'The bundled curriculum could not be read'))
   }, [])
 
   useEffect(() => {
@@ -183,12 +183,13 @@ export default function App() {
     return (
       <div className="center-screen">
         <div className="panel error-panel">
-          <h2>Backend not reachable</h2>
+          <h2>Could not load the curriculum</h2>
           <p className="muted">{loadError}</p>
           <p className="muted small">
-            Start the API with <code>uvicorn main:app --port 8000</code> in <code>/backend</code>, then reload.
+            This build is fully static: the snippet database ships inside the bundle. If this persists,
+            the deployed assets may be stale — hard-reload the page.
           </p>
-          <button className="btn primary" onClick={() => window.location.reload()}>Retry</button>
+          <button className="btn primary" onClick={() => window.location.reload()}>Reload</button>
         </div>
       </div>
     )
@@ -318,7 +319,10 @@ export default function App() {
 
       <footer className="footer">
         <span>PyDrill · Chessable-style spaced repetition for the Introduction to Data Science Python curriculum</span>
-        <span className="muted">SM-2 intervals 1 → 3 → 7 → 14 → 30 days · {snippets.length} snippets · progress saved locally</span>
+        <span className="muted">
+          SM-2 intervals 1 → 3 → 7 → 14 → 30 days · {snippets.length} snippets · runs entirely in your browser
+          (no server, no account) · progress saved locally
+        </span>
       </footer>
 
       <div className="toasts">

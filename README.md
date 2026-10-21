@@ -1,5 +1,7 @@
 # PyDrill — Introduction to Data Science Code Trainer
 
+**Fully static site — deploys to Netlify with no backend, no database, no API.**
+
 A full-stack, Chessable-style **spaced-repetition move trainer** for the Python side of an *Introduction to Data Science* course. Instead of multiple-choice quizzes, every card is a real Python snippet that you must be able to **type perfectly** and then **write blind from a natural-language prompt** — exactly like drilling chess moves.
 
 - **96 curated snippets** across **14 weekly modules** (Weeks 1–14 of the syllabus)
@@ -12,25 +14,79 @@ A full-stack, Chessable-style **spaced-repetition move trainer** for the Python 
 
 ---
 
-## Run it
+## Deploy to Netlify
+
+The repository is already configured (`netlify.toml` at the root):
+
+| Setting | Value |
+| --- | --- |
+| Base directory | `frontend` |
+| Build command | `npm ci && npm run build` |
+| Publish directory | `dist` |
+| Node version | 20 |
+| Functions | none — there is no backend |
+
+**Option 1 — connect the repo (recommended, gives you CI on every push)**
+
+1. app.netlify.com → *Add new site* → *Import an existing project* → GitHub → `ayman-beep/pydrill`
+2. Netlify reads `netlify.toml`, so just click **Deploy** — no settings to change.
+3. Every `git push` to `main` redeploys automatically.
+
+**Option 2 — drag and drop (no GitHub connection)**
 
 ```bash
-./run.sh            # API + prebuilt UI  → http://localhost:8000
-./run.sh dev        # FastAPI :8000 + Vite dev server :5173 (hot reload, /api proxied)
+./run.sh deploy        # builds pydrill-netlify.zip
+```
+
+Drag `pydrill-netlify.zip` onto https://app.netlify.com/drop.
+
+**Option 3 — CLI**
+
+```bash
+npm i -g netlify-cli && netlify login
+./run.sh deploy && netlify deploy --prod --dir=frontend/dist
+```
+
+Deployed output is 3 files (~333 KB, ~102 KB gzipped / zip): `index.html`, one JS bundle, one CSS bundle.
+
+---
+
+## Run it locally
+
+```bash
+./run.sh            # build + serve the static site   → http://localhost:4173
+./run.sh dev        # Vite dev server with HMR        → http://localhost:5173
+./run.sh deploy     # build pydrill-netlify.zip
+./run.sh test       # Python↔JS grader parity suite
+./run.sh api        # OPTIONAL FastAPI backend        → http://localhost:8000
 ```
 
 Manual equivalent:
 
 ```bash
-# 1. backend (serves the REST API and, if present, the built React app)
-cd backend && pip install fastapi uvicorn && python3 -m uvicorn main:app --host 0.0.0.0 --port 8000
-
-# 2. frontend, either use the prebuilt bundle in backend/static_app, or:
-cd frontend && npm install && npm run dev     # http://localhost:5173
-cd frontend && npm run build                  # rebuilds backend/static_app
+cd frontend && npm install
+npm run dev         # http://localhost:5173
+npm run build       # → frontend/dist  (this is what Netlify publishes)
+npm run preview     # serve the built bundle on :4173
 ```
 
-No database, no accounts. Progress lives in the browser (`localStorage`, key `pydrill.progress.v1`) with export/import/reset in **Progress → Drill settings**.
+No database, no accounts, no server. Progress lives in the browser (`localStorage`, key
+`pydrill.progress.v1`) with export/import/reset in **Progress → Drill settings**.
+
+### How it is fully frontend
+
+| Concern | Static build |
+| --- | --- |
+| Curriculum | `backend/*.py` is the authoring source; `backend/export_curriculum.py` writes `frontend/src/data/curriculum.json` (126 KB, 96 snippets + 272 notes), committed so the build needs no Python |
+| Grading | `frontend/src/lib/grade.js` — a port of the FastAPI grader, identical normalisation and line diff |
+| Data access | `frontend/src/lib/api.js` keeps the old async signatures but reads the bundled JSON; zero `fetch` calls |
+| Progress | `localStorage` only |
+| Backend | optional: `backend/main.py` still serves the same API for anyone who wants server-side grading, sharing `backend/grading.py` |
+
+`tests/grading_parity.py` runs 13 tricky inputs through **both** graders (quote style, tab/space
+indent, blank lines, trailing commas, truncation, extra lines, empty submission) and fails if the
+results differ — currently 13/13 agree. `tests/static_smoke.py` drives the built `dist/` with the API
+server stopped and asserts **0 `/api/` requests**.
 
 ---
 
@@ -104,6 +160,8 @@ Each card carries `id, week, title, topic, difficulty (1–3), prompt, hint, cod
 | `GET` | `/api/spec` | machine-readable description of the drill pipeline |
 | `POST` | `/api/grade` | grades a recall (or typing) attempt, returns `passed`, `feedback`, `first_mismatch`, full line diff |
 
+> These routes are **optional**. The shipped Netlify build calls none of them — grading happens in the browser.
+
 `POST /api/grade` body:
 
 ```json
@@ -117,8 +175,11 @@ Recall grading is deliberately **lenient about formatting and strict about conte
 ## Project layout
 
 ```
+netlify.toml           static deploy config (base=frontend, publish=dist, SPA redirect, cache headers)
 backend/
-  main.py              FastAPI app: API + grading + static SPA mount
+  main.py              OPTIONAL FastAPI app: API + optional static mount
+  grading.py           Python grader (shared by the API and the parity test)
+  export_curriculum.py generates frontend/src/data/curriculum.json
   curriculum_data.py   14 week definitions, validation, payload assembly
   cur_a.py             Weeks 1–7 snippets
   cur_b.py             Weeks 8–14 snippets
@@ -127,6 +188,9 @@ backend/
   explanations.py      merges both into one lookup
   static_app/          prebuilt React bundle (npm run build output)
 frontend/
+  public/_redirects    SPA fallback for Netlify
+  src/data/curriculum.json  generated bundle of all 96 snippets + notes
+  src/lib/grade.js     browser grader (mirror of backend/grading.py)
   src/App.jsx          hash router, queue management, XP/level-up, toasts
   src/components/      Dashboard, WeekView, DrillSession, CodeTyper,
                        FreeEditor, Explainer (annotated code + prose),
@@ -135,12 +199,18 @@ frontend/
   src/lib/selectors.js per-week / overall stats, review queue, heatmap data
   src/lib/highlight.js tiny Python tokenizer + ghost-progress spans
   src/lib/sfx.js       WebAudio SFX, speech synthesis, haptics
-tests/smoke.py         Playwright end-to-end walkthrough (needs a running app)
+tests/smoke.py         Playwright end-to-end walkthrough (dev server)
+tests/static_smoke.py  Playwright walkthrough of the built dist/ with the API stopped
 tests/screenshots.py   Seeds sample progress and captures the shots in shots/
+tests/grading_parity.py Python vs JS grader equivalence suite
 ```
 
 ## Notes on the interactive editor
 
 The typing textarea is intentionally **uncontrolled**: at ~10 keystrokes/second a controlled React input can reconcile against a stale value and reject legitimate characters. The DOM owns the text, React mirrors only the length (drives the ghost overlay, progress bar and line indicator), and strict-mode resets write straight to `textarea.value`. That keeps validation correct while typing as fast as you can.
 
-`tests/smoke.py` drives the whole flow with Playwright: inline explanations → 3 perfect typing runs → failing recall (diff shown) → forced typing restart → passing recall → post-pass explanation → SM-2 scheduling → dashboard/stat updates. Latest run: all assertions pass, zero console errors.
+`tests/smoke.py` drives the whole flow with Playwright against the dev server; `tests/static_smoke.py`
+does the same against the built `dist/` with the API stopped: inline explanations → 3 perfect typing
+runs → failing recall (diff shown) → forced typing restart → passing recall → post-pass explanation →
+SM-2 scheduling → dashboard/stat updates. Latest runs: all assertions pass, **0 `/api/` requests**,
+zero console errors.

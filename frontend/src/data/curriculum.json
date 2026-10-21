@@ -1,0 +1,3127 @@
+{
+ "course": "Introduction to Data Science",
+ "weeks": [
+  {
+   "n": 1,
+   "title": "Foundations of Data Science & Python Setup",
+   "blurb": "Variables, data types, collections, control flow and your first functions.",
+   "accent": "#7c9cf5",
+   "count": 9,
+   "snippet_ids": [
+    "w01-01",
+    "w01-02",
+    "w01-03",
+    "w01-04",
+    "w01-05",
+    "w01-06",
+    "w01-07",
+    "w01-08",
+    "w01-09"
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Version Control & Development Ecosystem",
+   "blurb": "Git terminal commands and the Google Colab execution environment.",
+   "accent": "#f0a05a",
+   "count": 6,
+   "snippet_ids": [
+    "w02-01",
+    "w02-02",
+    "w02-03",
+    "w02-04",
+    "w02-05",
+    "w02-06"
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Data Formats, Web Scraping & REST APIs",
+   "blurb": "requests, JSON serialisation, BeautifulSoup parsing and caching results.",
+   "accent": "#5fd0b0",
+   "count": 8,
+   "snippet_ids": [
+    "w03-01",
+    "w03-02",
+    "w03-03",
+    "w03-04",
+    "w03-05",
+    "w03-06",
+    "w03-07",
+    "w03-08"
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Tidy Data & Schema Structuring",
+   "blurb": "Lists of dicts, columnar stores, sets, comprehensions and sorting rows.",
+   "accent": "#c58cf0",
+   "count": 7,
+   "snippet_ids": [
+    "w04-01",
+    "w04-02",
+    "w04-03",
+    "w04-04",
+    "w04-05",
+    "w04-06",
+    "w04-07"
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Data Processing 1 — Pandas Foundations",
+   "blurb": "read_csv, inspection, filtering, missing values and index access.",
+   "accent": "#e5708f",
+   "count": 9,
+   "snippet_ids": [
+    "w05-01",
+    "w05-02",
+    "w05-03",
+    "w05-04",
+    "w05-05",
+    "w05-06",
+    "w05-07",
+    "w05-08",
+    "w05-09"
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Mid-Term Review Drills",
+   "blurb": "Aggregated drills mixing Weeks 1-5 into short multi-step pipelines.",
+   "accent": "#e8c65a",
+   "count": 6,
+   "snippet_ids": [
+    "w06-01",
+    "w06-02",
+    "w06-03",
+    "w06-04",
+    "w06-05",
+    "w06-06"
+   ]
+  },
+  {
+   "n": 7,
+   "title": "Data Processing 2 — Grouping, Joining, Reshaping",
+   "blurb": "groupby, merge, concat, derived columns and pivot tables.",
+   "accent": "#6fb6e8",
+   "count": 8,
+   "snippet_ids": [
+    "w07-01",
+    "w07-02",
+    "w07-03",
+    "w07-04",
+    "w07-05",
+    "w07-06",
+    "w07-07",
+    "w07-08"
+   ]
+  },
+  {
+   "n": 8,
+   "title": "Exploratory Data Analysis 1 — NumPy & Statistics",
+   "blurb": "Arrays, vectorised maths, boolean masks and descriptive statistics.",
+   "accent": "#8ee06f",
+   "count": 7,
+   "snippet_ids": [
+    "w08-01",
+    "w08-02",
+    "w08-03",
+    "w08-04",
+    "w08-05",
+    "w08-06",
+    "w08-07"
+   ]
+  },
+  {
+   "n": 9,
+   "title": "Exploratory Data Analysis 2 — Visualisation",
+   "blurb": "Matplotlib and Seaborn charts, correlation matrices and saved figures.",
+   "accent": "#f28fb7",
+   "count": 7,
+   "snippet_ids": [
+    "w09-01",
+    "w09-02",
+    "w09-03",
+    "w09-04",
+    "w09-05",
+    "w09-06",
+    "w09-07"
+   ]
+  },
+  {
+   "n": 10,
+   "title": "Machine Learning & Linear Regression",
+   "blurb": "Train/test splits, fitting, predicting, scaling and R-squared.",
+   "accent": "#9d8cf5",
+   "count": 7,
+   "snippet_ids": [
+    "w10-01",
+    "w10-02",
+    "w10-03",
+    "w10-04",
+    "w10-05",
+    "w10-06",
+    "w10-07"
+   ]
+  },
+  {
+   "n": 11,
+   "title": "Decision Trees",
+   "blurb": "Classification and regression trees, tree plots, importance, CV.",
+   "accent": "#5fd6a0",
+   "count": 6,
+   "snippet_ids": [
+    "w11-01",
+    "w11-02",
+    "w11-03",
+    "w11-04",
+    "w11-05",
+    "w11-06"
+   ]
+  },
+  {
+   "n": 12,
+   "title": "Neural Networks",
+   "blurb": "Keras Sequential architecture, compilation, training and evaluation.",
+   "accent": "#f5a35f",
+   "count": 6,
+   "snippet_ids": [
+    "w12-01",
+    "w12-02",
+    "w12-03",
+    "w12-04",
+    "w12-05",
+    "w12-06"
+   ]
+  },
+  {
+   "n": 13,
+   "title": "Capstone Review",
+   "blurb": "End-to-end data pipelines from raw source to evaluated model.",
+   "accent": "#e06f6f",
+   "count": 5,
+   "snippet_ids": [
+    "w13-01",
+    "w13-02",
+    "w13-03",
+    "w13-04",
+    "w13-05"
+   ]
+  },
+  {
+   "n": 14,
+   "title": "Final Drills",
+   "blurb": "Comprehensive synthesis of the whole course, ready for the exam.",
+   "accent": "#7fd9e8",
+   "count": 5,
+   "snippet_ids": [
+    "w14-01",
+    "w14-02",
+    "w14-03",
+    "w14-04",
+    "w14-05"
+   ]
+  }
+ ],
+ "snippets": [
+  {
+   "id": "w01-01",
+   "week": 1,
+   "difficulty": 1,
+   "title": "Variables and print",
+   "topic": "Variables & print",
+   "prompt": "Create a variable name set to the text \"Ada\" and a variable age set to 28, then print both on a single line.",
+   "hint": "print(name, age) accepts two arguments and separates them with a space.",
+   "code": "name = \"Ada\"\nage = 28\nprint(name, age)",
+   "lines": 3,
+   "chars": 38,
+   "explain": "Stores two pieces of information in named variables and then prints both at once. `name` holds text (a string) and `age` holds a whole number (an int). Passing two arguments to print separates the output with a single space: `Ada 28`.",
+   "gotcha": "Writing `age = \"28\"` makes it text, and `age + 1` would then fail with a TypeError.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "name = \"Ada\"",
+     "note": "Creates a variable `name` and assigns it the string \"Ada\". The quotes are part of the syntax, not the value."
+    },
+    {
+     "line": 2,
+     "code": "age = 28",
+     "note": "Creates `age` and assigns the integer 28 — no quotes, so Python treats it as a number."
+    },
+    {
+     "line": 3,
+     "code": "print(name, age)",
+     "note": "print() can take several arguments; it prints them separated by spaces, so this outputs: Ada 28"
+    }
+   ]
+  },
+  {
+   "id": "w01-02",
+   "week": 1,
+   "difficulty": 1,
+   "title": "Check the type of a value",
+   "topic": "Data types",
+   "prompt": "Assign an integer 10 to x, a float 3.14 to y and the text value to z, then print type() for each in one print call.",
+   "hint": "type(value) returns the data type; pass all three inside a single print().",
+   "code": "x = 10\ny = 3.14\nz = \"text\"\nprint(type(x), type(y), type(z))",
+   "lines": 4,
+   "chars": 59,
+   "explain": "Shows how Python classifies values. `10` is an int, `3.14` a float and `\"text\"` a str. `type()` reports the class of a value, so this prints three `<class ...>` objects and is the fastest way to debug a column that refuses to do maths.",
+   "gotcha": "`type` needs the parentheses — `print(type(x))` works, `print(type x)` is a syntax error.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "x = 10",
+     "note": "An integer literal: a whole number, no decimal point."
+    },
+    {
+     "line": 2,
+     "code": "y = 3.14",
+     "note": "A float literal: the decimal point makes it floating point."
+    },
+    {
+     "line": 3,
+     "code": "z = \"text\"",
+     "note": "A string literal: text inside quotes."
+    },
+    {
+     "line": 4,
+     "code": "print(type(x), type(y), type(z))",
+     "note": "type() returns the data type of each value, all printed on one line."
+    }
+   ]
+  },
+  {
+   "id": "w01-03",
+   "week": 1,
+   "difficulty": 1,
+   "title": "Index into a list",
+   "topic": "Lists",
+   "prompt": "Store three temperatures 21.5, 23.0 and 19.8 in a list called temperatures, then print the first element.",
+   "hint": "Python lists are zero-indexed, so the first element is [0].",
+   "code": "temperatures = [21.5, 23.0, 19.8]\nprint(temperatures[0])",
+   "lines": 2,
+   "chars": 56,
+   "explain": "Creates a list of three temperatures and prints the first one. Lists keep items in order and are written in square brackets. Indexing starts at 0, so `[0]` is the first element, `[1]` the second and `[-1]` the last.",
+   "gotcha": "`temperatures[3]` raises IndexError — the valid positions here are 0, 1 and 2.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "temperatures = [21.5, 23.0, 19.8]",
+     "note": "A list literal: three floats in square brackets, separated by commas."
+    },
+    {
+     "line": 2,
+     "code": "print(temperatures[0])",
+     "note": "Square brackets after the list name select an element; 0 means the first item, so this prints 21.5."
+    }
+   ]
+  },
+  {
+   "id": "w01-04",
+   "week": 1,
+   "difficulty": 1,
+   "title": "Read a value from a dictionary",
+   "topic": "Dictionaries",
+   "prompt": "Create a dictionary student with keys \"name\" (value \"Ada\") and \"score\" (value 95), then print the score using square-bracket lookup.",
+   "hint": "Use student[\"score\"] with the key in double quotes.",
+   "code": "student = {\"name\": \"Ada\", \"score\": 95}\nprint(student[\"score\"])",
+   "lines": 2,
+   "chars": 62,
+   "explain": "Builds a dictionary that maps keys to values and looks one value up by its key. Dictionaries are the Python shape of a single table row: field name → field value.",
+   "gotcha": "`student[score]` without quotes looks for a variable named `score` and raises NameError.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "student = {\"name\": \"Ada\", \"score\": 95}",
+     "note": "A dict literal with two key/value pairs: \"name\" → \"Ada\" and \"score\" → 95."
+    },
+    {
+     "line": 2,
+     "code": "print(student[\"score\"])",
+     "note": "Look values up with dict[key], so this prints 95. The key must be spelled and quoted exactly."
+    }
+   ]
+  },
+  {
+   "id": "w01-05",
+   "week": 1,
+   "difficulty": 1,
+   "title": "Arithmetic and averages",
+   "topic": "Operators",
+   "prompt": "Compute 10 + 5 * 2 into total, then divide total by 3 into mean and print mean.",
+   "hint": "Multiplication binds tighter than addition, so no brackets are needed.",
+   "code": "total = 10 + 5 * 2\nmean = total / 3\nprint(mean)",
+   "lines": 3,
+   "chars": 47,
+   "explain": "Demonstrates operator precedence and division. Multiplication happens before addition, so `10 + 5 * 2` is 20, not 30. Single `/` always returns a float, so the mean is 6.666…",
+   "gotcha": "Use `//` for floor division or `round(x, 2)` when you want a tidy number in a report.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "total = 10 + 5 * 2",
+     "note": "`5 * 2` is evaluated first, then added to 10 — total becomes 20."
+    },
+    {
+     "line": 2,
+     "code": "mean = total / 3",
+     "note": "Single `/` performs true division and always returns a float."
+    },
+    {
+     "line": 3,
+     "code": "print(mean)",
+     "note": "Prints 6.666666666666667 rather than a rounded value."
+    }
+   ]
+  },
+  {
+   "id": "w01-06",
+   "week": 1,
+   "difficulty": 2,
+   "title": "Branch with if / elif / else",
+   "topic": "Control flow",
+   "prompt": "Set score to 82. Assign grade \"A\" when score is at least 90, \"B\" when at least 80, otherwise \"C\". Print grade.",
+   "hint": "Use if / elif / else and the >= operator, then print(grade).",
+   "code": "score = 82\nif score >= 90:\n    grade = \"A\"\nelif score >= 80:\n    grade = \"B\"\nelse:\n    grade = \"C\"\nprint(grade)",
+   "lines": 8,
+   "chars": 111,
+   "explain": "Classifies a score into a letter grade using a chain of conditions. Python tests `if` first, then each `elif` in order, and runs only the first branch that is True; `else` is the fallback. The indented blocks are what makes each branch belong to its condition.",
+   "gotcha": "Using `=` instead of `==` inside a condition is an assignment and raises a SyntaxError.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "score = 82",
+     "note": "The value being tested. Change it to 95 and the grade becomes A."
+    },
+    {
+     "line": 2,
+     "code": "if score >= 90:",
+     "note": "First test: is the score at least 90?"
+    },
+    {
+     "line": 3,
+     "code": "    grade = \"A\"",
+     "note": "Runs only when the test above was True. Four spaces of indentation define the block."
+    },
+    {
+     "line": 4,
+     "code": "elif score >= 80:",
+     "note": "Checked only if the first test failed; `>=` includes exactly 80."
+    },
+    {
+     "line": 5,
+     "code": "    grade = \"B\"",
+     "note": "80–89 lands here."
+    },
+    {
+     "line": 6,
+     "code": "else:",
+     "note": "Catch-all branch when nothing above matched."
+    },
+    {
+     "line": 7,
+     "code": "    grade = \"C\"",
+     "note": "Scores below 80 get a C."
+    },
+    {
+     "line": 8,
+     "code": "print(grade)",
+     "note": "Printing outside the indented blocks shows the single grade that was assigned."
+    }
+   ]
+  },
+  {
+   "id": "w01-07",
+   "week": 1,
+   "difficulty": 2,
+   "title": "Loop over a range",
+   "topic": "Loops",
+   "prompt": "Loop i from 0 to 4 with range(5) and print i raised to the power 2 on each iteration.",
+   "hint": "Indent the body four spaces and use the exponent operator **.",
+   "code": "for i in range(5):\n    print(i ** 2)",
+   "lines": 2,
+   "chars": 36,
+   "explain": "Repeats a block of code five times. `range(5)` yields 0, 1, 2, 3, 4 — five numbers, stopping before 5. Each pass binds the next number to `i`, and `**` raises it to the power of 2.",
+   "gotcha": "`range(5)` gives 5 values starting at 0 — it does not include 5 itself.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "for i in range(5):",
+     "note": "Loop header: `i` takes each value from range(5) in turn, and the colon opens the block."
+    },
+    {
+     "line": 2,
+     "code": "    print(i ** 2)",
+     "note": "The indented body runs once per value, printing 0, 1, 4, 9, 16 on separate lines."
+    }
+   ]
+  },
+  {
+   "id": "w01-08",
+   "week": 1,
+   "difficulty": 2,
+   "title": "Define a reusable mean function",
+   "topic": "Functions",
+   "prompt": "Define a function mean(values) that returns the sum divided by the length, then print the mean of the list [2, 4, 6].",
+   "hint": "Use sum() and len() inside a return statement; leave one blank line before the print.",
+   "code": "def mean(values):\n    return sum(values) / len(values)\n\nprint(mean([2, 4, 6]))",
+   "lines": 4,
+   "chars": 78,
+   "explain": "Defines a reusable function that computes an average, then calls it once. `def` names the function and lists its parameters; `return` sends a value back to the caller instead of printing it, which is what makes the function composable.",
+   "gotcha": "Forgetting `return` makes the function hand back `None`, so `print` would show None.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "def mean(values):",
+     "note": "Function definition: the name `mean` and one parameter, `values`."
+    },
+    {
+     "line": 2,
+     "code": "    return sum(values) / len(values)",
+     "note": "sum() adds the numbers, len() counts them, and the division returns the average to the caller."
+    },
+    {
+     "line": 4,
+     "code": "print(mean([2, 4, 6]))",
+     "note": "Calls the function with the list [2, 4, 6]; the printed result is 4.0."
+    }
+   ]
+  },
+  {
+   "id": "w01-09",
+   "week": 1,
+   "difficulty": 1,
+   "title": "Collect rows in a list",
+   "topic": "Lists & loops",
+   "prompt": "Create an empty list called rows, then loop over the names Ada, Grace and Alan and append each name to rows. Print the list.",
+   "hint": "Start with rows = [] and use a for loop over the literal list.",
+   "code": "rows = []\nfor name in [\"Ada\", \"Grace\", \"Alan\"]:\n    rows.append(name)\nprint(rows)",
+   "lines": 4,
+   "chars": 81,
+   "explain": "Grows a list one item at a time — the pattern behind building a table from scratch. It starts empty, loops over three names and appends each one, which is exactly how rows get accumulated before being turned into a DataFrame.",
+   "gotcha": "`rows = rows.append(name)` sets rows to None — append changes the list in place and returns nothing.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "rows = []",
+     "note": "Starts with an empty list so append() has somewhere to add items."
+    },
+    {
+     "line": 2,
+     "code": "for name in [\"Ada\", \"Grace\", \"Alan\"]:",
+     "note": "Loops over a list literal of three names."
+    },
+    {
+     "line": 3,
+     "code": "    rows.append(name)",
+     "note": "append() adds one item to the end of the list, growing it each pass."
+    },
+    {
+     "line": 4,
+     "code": "print(rows)",
+     "note": "Prints the completed list: ['Ada', 'Grace', 'Alan']."
+    }
+   ]
+  },
+  {
+   "id": "w02-01",
+   "week": 2,
+   "difficulty": 2,
+   "title": "Clone a repository and enter it",
+   "topic": "Git basics",
+   "prompt": "In the terminal, clone the repository https://github.com/user/project.git and then move into the project directory.",
+   "hint": "Two commands: git clone <url> followed by cd project.",
+   "code": "git clone https://github.com/user/project.git\ncd project",
+   "lines": 2,
+   "chars": 56,
+   "explain": "Two terminal commands that get a project onto your machine: `git clone` downloads the repository together with its full commit history into a new folder, and `cd` moves your shell into that folder so later git commands act on it.",
+   "gotcha": "Run `git status` after `cd` to confirm you are inside a repository before committing.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "git clone https://github.com/user/project.git",
+     "note": "Downloads the repository from the URL into a new local folder named after the repo (`project`)."
+    },
+    {
+     "line": 2,
+     "code": "cd project",
+     "note": "Changes the working directory into that new folder."
+    }
+   ]
+  },
+  {
+   "id": "w02-02",
+   "week": 2,
+   "difficulty": 2,
+   "title": "Stage and commit a file",
+   "topic": "Git staging",
+   "prompt": "Stage the file data.csv and commit it with the message \"Add raw dataset\".",
+   "hint": "git add <file> then git commit -m \"<message>\" — keep the message in double quotes.",
+   "code": "git add data.csv\ngit commit -m \"Add raw dataset\"",
+   "lines": 2,
+   "chars": 48,
+   "explain": "The two-step save in git: `git add` stages the change (puts it in the next snapshot), and `git commit` records that snapshot with a message. Nothing is saved to history until the commit happens.",
+   "gotcha": "`git commit` alone commits staged files only — a file you never `add`ed stays out of the snapshot.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "git add data.csv",
+     "note": "Stages `data.csv` — the file is now in the index, waiting to be committed."
+    },
+    {
+     "line": 2,
+     "code": "git commit -m \"Add raw dataset\"",
+     "note": "Creates a commit of everything staged, labelled with the message \"Add raw dataset\". The -m flag takes the message inline."
+    }
+   ]
+  },
+  {
+   "id": "w02-03",
+   "week": 2,
+   "difficulty": 1,
+   "title": "Push to the remote",
+   "topic": "Git remotes",
+   "prompt": "Push the current commits to the remote called origin on the branch main.",
+   "hint": "git push <remote> <branch>.",
+   "code": "git push origin main",
+   "lines": 1,
+   "chars": 20,
+   "explain": "Uploads local commits to the remote repository. The first argument is the remote name (`origin`, the default alias for the URL you cloned from) and the second is the branch you are pushing (`main`).",
+   "gotcha": "If the remote has newer commits, the push is rejected — pull or rebase first.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "git push origin main",
+     "note": "Sends the current branch's commits to the remote called origin, branch main."
+    }
+   ]
+  },
+  {
+   "id": "w02-04",
+   "week": 2,
+   "difficulty": 2,
+   "title": "Inspect repository state",
+   "topic": "Git status & log",
+   "prompt": "Show the working tree status, then display the last five commits in one-line format.",
+   "hint": "git status, then git log with the --oneline flag and -5.",
+   "code": "git status\ngit log --oneline -5",
+   "lines": 2,
+   "chars": 31,
+   "explain": "Read-only inspection. `git status` shows which files are modified, staged or untracked, and `git log --oneline -5` shows the five most recent commits in a compact one-line-per-commit format.",
+   "gotcha": "`git log` can trap you in a pager — press q to return to the shell prompt.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "git status",
+     "note": "Reports the working tree state: staged, modified and untracked files."
+    },
+    {
+     "line": 2,
+     "code": "git log --oneline -5",
+     "note": "--oneline compresses each commit to one line and -5 limits the output to the last five."
+    }
+   ]
+  },
+  {
+   "id": "w02-05",
+   "week": 2,
+   "difficulty": 2,
+   "title": "Install a package in Google Colab",
+   "topic": "Colab environment",
+   "prompt": "In a Google Colab cell, install pandas with pip using the shell escape, then import it with the alias pd.",
+   "hint": "Prefix the shell command with ! and import with the as alias.",
+   "code": "!pip install pandas\nimport pandas as pd",
+   "lines": 2,
+   "chars": 39,
+   "explain": "In a Colab cell, a leading `!` runs the rest of the line as a shell command, so pip installs into the notebook's runtime. The import that follows uses `as` to give the library the conventional short alias.",
+   "gotcha": "The pip install is not needed on a fresh Colab VM — pandas ships with it, so the line is often a no-op.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "!pip install pandas",
+     "note": "The `!` escape runs this as a shell command on the Colab VM, not as Python."
+    },
+    {
+     "line": 2,
+     "code": "import pandas as pd",
+     "note": "Imports pandas under the alias pd, the alias every tutorial and the rest of this course uses."
+    }
+   ]
+  },
+  {
+   "id": "w02-06",
+   "week": 2,
+   "difficulty": 2,
+   "title": "Mount Google Drive in Colab",
+   "topic": "Colab filesystem",
+   "prompt": "Mount your Google Drive in Colab by importing drive from google.colab and calling drive.mount on the path \"/content/drive\".",
+   "hint": "from google.colab import drive, then drive.mount(\"/content/drive\").",
+   "code": "from google.colab import drive\ndrive.mount(\"/content/drive\")",
+   "lines": 2,
+   "chars": 60,
+   "explain": "Connects Colab to your Google Drive so files persist between sessions. `drive.mount` asks for authorisation and exposes your Drive under `/content/drive`, after which you can read CSVs with normal paths such as `/content/drive/MyDrive/data.csv`.",
+   "gotcha": "Without mounting, the Colab VM is temporary — files you write disappear when the runtime resets.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "from google.colab import drive",
+     "note": "Imports just the `drive` helper from the google.colab package."
+    },
+    {
+     "line": 2,
+     "code": "drive.mount(\"/content/drive\")",
+     "note": "Mounts your Drive at the given path; Colab shows a consent prompt the first time."
+    }
+   ]
+  },
+  {
+   "id": "w03-01",
+   "week": 3,
+   "difficulty": 2,
+   "title": "Send a GET request",
+   "topic": "REST APIs",
+   "prompt": "Import requests and fetch https://api.example.com/data with requests.get, storing the result in response. Print its status_code.",
+   "hint": "Two lines of setup plus the call; leave a blank line before the request.",
+   "code": "import requests\n\nresponse = requests.get(\"https://api.example.com/data\")\nprint(response.status_code)",
+   "lines": 4,
+   "chars": 100,
+   "explain": "Performs the simplest HTTP GET call. `requests.get` sends the request and returns a Response object; `status_code` is the HTTP status, where 200 means success and 4xx/5xx mean failure. Nothing is parsed yet — the body is still raw.",
+   "gotcha": "A 404 or 500 does not raise an exception by default; you must check the status or call raise_for_status().",
+   "notes": [
+    {
+     "line": 1,
+     "code": "import requests",
+     "note": "Imports the third-party requests library, which wraps HTTP in one-line calls."
+    },
+    {
+     "line": 3,
+     "code": "response = requests.get(\"https://api.example.com/data\")",
+     "note": "Sends a GET request to the URL and stores the whole Response object in `response`."
+    },
+    {
+     "line": 4,
+     "code": "print(response.status_code)",
+     "note": "Prints the HTTP status code — 200 for a successful request."
+    }
+   ]
+  },
+  {
+   "id": "w03-02",
+   "week": 3,
+   "difficulty": 2,
+   "title": "Query parameters and error checking",
+   "topic": "REST APIs",
+   "prompt": "Request the url stored in the variable url with the query parameter page set to 2, then raise an error for bad status codes.",
+   "hint": "Pass params={\"page\": 2} and call response.raise_for_status().",
+   "code": "response = requests.get(url, params={\"page\": 2})\nresponse.raise_for_status()",
+   "lines": 2,
+   "chars": 76,
+   "explain": "Sends query parameters and fails loudly on a bad response. `params=` builds `?page=2` for you and handles URL-encoding; `raise_for_status()` converts any 4xx/5xx status into an exception so broken data never silently flows into your pipeline.",
+   "gotcha": "Never hand-build `url + '?page=2'` — encoding breaks as soon as a value contains a space or an ampersand.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "response = requests.get(url, params={\"page\": 2})",
+     "note": "Passes the dict as query parameters, producing url?page=2 in the request."
+    },
+    {
+     "line": 2,
+     "code": "response.raise_for_status()",
+     "note": "Raises an HTTPError if the server answered with a client or server error status."
+    }
+   ]
+  },
+  {
+   "id": "w03-03",
+   "week": 3,
+   "difficulty": 2,
+   "title": "Parse a JSON response",
+   "topic": "JSON",
+   "prompt": "Import json, parse response.text into a variable called payload, then print the first element of its items list.",
+   "hint": "json.loads() converts text to Python objects; index with payload[\"items\"][0].",
+   "code": "import json\npayload = json.loads(response.text)\nprint(payload[\"items\"][0])",
+   "lines": 3,
+   "chars": 74,
+   "explain": "Turns the JSON text returned by an API into real Python objects. `json.loads` means “load string” and produces dicts and lists, which you then index like any other Python data — here the first element of the `items` list.",
+   "gotcha": "`json.load` (no s) expects an already-open file object; `json.loads` expects text.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "import json",
+     "note": "Imports the standard-library json module (no installation needed)."
+    },
+    {
+     "line": 2,
+     "code": "payload = json.loads(response.text)",
+     "note": "Parses the response body text into Python dicts/lists. Note the s: loads = string in."
+    },
+    {
+     "line": 3,
+     "code": "print(payload[\"items\"][0])",
+     "note": "Indexes the parsed dict by key, then takes element 0 of that list."
+    }
+   ]
+  },
+  {
+   "id": "w03-04",
+   "week": 3,
+   "difficulty": 2,
+   "title": "Serialise a dict to JSON",
+   "topic": "JSON",
+   "prompt": "Given a dictionary body with name \"Ada\" and score 95, print it as indented JSON with 2 spaces of indentation.",
+   "hint": "json.dumps(body, indent=2).",
+   "code": "body = {\"name\": \"Ada\", \"score\": 95}\nprint(json.dumps(body, indent=2))",
+   "lines": 2,
+   "chars": 69,
+   "explain": "Goes the other way: converts a Python dict into a JSON string. `indent=2` pretty-prints with two spaces per level, which makes the payload readable in logs or before POSTing it somewhere.",
+   "gotcha": "Tuples become arrays and `None` becomes `null`; sets and DataFrames cannot be serialised directly.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "body = {\"name\": \"Ada\", \"score\": 95}",
+     "note": "A normal Python dict — JSON objects and Python dicts look alike but are not the same thing."
+    },
+    {
+     "line": 2,
+     "code": "print(json.dumps(body, indent=2))",
+     "note": "json.dumps serialises it to text; indent=2 adds newlines and indentation for readability."
+    }
+   ]
+  },
+  {
+   "id": "w03-05",
+   "week": 3,
+   "difficulty": 2,
+   "title": "POST JSON to an API",
+   "topic": "REST APIs",
+   "prompt": "Send the dictionary body to the variable url using requests.post as JSON, then print the parsed JSON reply from the response.",
+   "hint": "Use the json= keyword argument, then response.json().",
+   "code": "response = requests.post(url, json=body)\nprint(response.json())",
+   "lines": 2,
+   "chars": 63,
+   "explain": "Sends data to an API rather than asking for it. The `json=` keyword serialises the dict, sets the Content-Type header to application/json and attaches it as the request body. `response.json()` parses the reply straight into Python objects.",
+   "gotcha": "Using `data=body` sends form-encoded text, not JSON, which many APIs reject with 415 or 400.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "response = requests.post(url, json=body)",
+     "note": "POSTs the dict as a JSON body — do not json.dumps it yourself when using the json= keyword."
+    },
+    {
+     "line": 2,
+     "code": "print(response.json())",
+     "note": "Parses the response body in one step instead of calling json.loads(response.text)."
+    }
+   ]
+  },
+  {
+   "id": "w03-06",
+   "week": 3,
+   "difficulty": 3,
+   "title": "Parse HTML with BeautifulSoup",
+   "topic": "Web scraping",
+   "prompt": "Import BeautifulSoup from bs4, parse the html string with the \"html.parser\" parser into soup, then print the page title text.",
+   "hint": "soup.title.get_text() extracts the text of the title tag.",
+   "code": "from bs4 import BeautifulSoup\nsoup = BeautifulSoup(html, \"html.parser\")\nprint(soup.title.get_text())",
+   "lines": 3,
+   "chars": 100,
+   "explain": "Parses an HTML page into a searchable tree. BeautifulSoup needs the markup plus a parser name; after that you navigate with `.title`, `.find` and `.find_all` instead of regexes. `get_text()` strips the tags and returns just the visible text.",
+   "gotcha": "BeautifulSoup does not fetch pages — pass it `requests.get(url).text` first.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "from bs4 import BeautifulSoup",
+     "note": "Imports only the BeautifulSoup class from the bs4 package."
+    },
+    {
+     "line": 2,
+     "code": "soup = BeautifulSoup(html, \"html.parser\")",
+     "note": "Parses the HTML string and returns a navigable tree; html.parser is the built-in, dependency-free parser."
+    },
+    {
+     "line": 3,
+     "code": "print(soup.title.get_text())",
+     "note": "Walks to the title tag and prints its inner text without any markup."
+    }
+   ]
+  },
+  {
+   "id": "w03-07",
+   "week": 3,
+   "difficulty": 3,
+   "title": "Extract table rows",
+   "topic": "Web scraping",
+   "prompt": "Loop over every tr element in soup and build a list of the stripped text of each td cell inside that row.",
+   "hint": "Use find_all(\"tr\") then a list comprehension over row.find_all(\"td\") with get_text(strip=True).",
+   "code": "for row in soup.find_all(\"tr\"):\n    cells = [c.get_text(strip=True) for c in row.find_all(\"td\")]",
+   "lines": 2,
+   "chars": 96,
+   "explain": "Walks an HTML table. `find_all(\"tr\")` returns every table row, and for each row a list comprehension collects the text of its `td` cells. `strip=True` removes the surrounding whitespace and newlines that HTML formatting leaves behind, which is essential for clean data.",
+   "gotcha": "Without `strip=True` you get values like '\\n    42\\n  ' which break numeric conversion later.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "for row in soup.find_all(\"tr\"):",
+     "note": "Loops over every table-row element in the document."
+    },
+    {
+     "line": 2,
+     "code": "    cells = [c.get_text(strip=True) for c in row.find_all(\"td\")]",
+     "note": "List comprehension: for each cell in this row, take the stripped text, producing one string per column."
+    }
+   ]
+  },
+  {
+   "id": "w03-08",
+   "week": 3,
+   "difficulty": 2,
+   "title": "Cache API results to disk",
+   "topic": "File I/O",
+   "prompt": "Write the payload dictionary to data.json as indented JSON with 2-space indentation, using a with block and a file handle named f.",
+   "hint": "Open with open(\"data.json\", \"w\") and use json.dump(payload, f, indent=2).",
+   "code": "with open(\"data.json\", \"w\") as f:\n    json.dump(payload, f, indent=2)",
+   "lines": 2,
+   "chars": 69,
+   "explain": "Caches an API payload as a local JSON file so you do not re-fetch it every run. `with open(...)` closes the file automatically even if an error occurs, and `json.dump` writes the Python object straight into that open file handle.",
+   "gotcha": "`json.dump` writes to a file handle; `json.dumps` returns a string — mixing them up corrupts the file.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "with open(\"data.json\", \"w\") as f:",
+     "note": "Opens data.json for writing (\"w\" overwrites) and binds the handle to `f` for the indented block."
+    },
+    {
+     "line": 2,
+     "code": "    json.dump(payload, f, indent=2)",
+     "note": "json.dump (no s) writes into the open file object, pretty-printed with two spaces."
+    }
+   ]
+  },
+  {
+   "id": "w04-01",
+   "week": 4,
+   "difficulty": 2,
+   "title": "Tidy rows as a list of dicts",
+   "topic": "Tidy data",
+   "prompt": "Build a list called rows holding two dictionaries: city \"KL\" with temp 32, and city \"SG\" with temp 30. Then print the city of the first row.",
+   "hint": "One dictionary per line, trailing comma between them.",
+   "code": "rows = [\n    {\"city\": \"KL\", \"temp\": 32},\n    {\"city\": \"SG\", \"temp\": 30},\n]\nprint(rows[0][\"city\"])",
+   "lines": 5,
+   "chars": 97,
+   "explain": "The canonical tidy-data shape: a list where every dictionary is one row and every key is one column. All rows share the same keys, which is exactly what `pd.DataFrame(rows)` expects, and you address a single cell as `rows[row_index][column_name]`.",
+   "gotcha": "Rows with different key names become NaN-filled columns once converted to a DataFrame.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "rows = [",
+     "note": "Opens a list literal; the entries are dictionaries, one per row."
+    },
+    {
+     "line": 2,
+     "code": "    {\"city\": \"KL\", \"temp\": 32},",
+     "note": "First row: city \"KL\" with temp 32."
+    },
+    {
+     "line": 3,
+     "code": "    {\"city\": \"SG\", \"temp\": 30},",
+     "note": "Second row, same keys in the same order — consistent keys are what makes it tidy."
+    },
+    {
+     "line": 4,
+     "code": "]",
+     "note": "Closes the list."
+    },
+    {
+     "line": 5,
+     "code": "print(rows[0][\"city\"])",
+     "note": "Row 0, then the \"city\" key of that row, printing KL."
+    }
+   ]
+  },
+  {
+   "id": "w04-02",
+   "week": 4,
+   "difficulty": 2,
+   "title": "Pull one column into a list",
+   "topic": "Comprehensions",
+   "prompt": "Using a list comprehension over rows, collect every row's \"temp\" value into temps, then print the average of temps.",
+   "hint": "[row[\"temp\"] for row in rows], then sum(temps) / len(temps).",
+   "code": "temps = [row[\"temp\"] for row in rows]\nprint(sum(temps) / len(temps))",
+   "lines": 2,
+   "chars": 68,
+   "explain": "Extracts one column out of the row list, then summarises it. The list comprehension visits each row and keeps only the `temp` value, turning row-oriented data into a plain list you can run maths on.",
+   "gotcha": "A comprehension already builds the list — do not wrap it in another pair of square brackets.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "temps = [row[\"temp\"] for row in rows]",
+     "note": "Comprehension: for every row, take row[\"temp\"] — result is [32, 30]."
+    },
+    {
+     "line": 2,
+     "code": "print(sum(temps) / len(temps))",
+     "note": "sum()/len() is the manual way to compute a mean; the printed result is 31.0."
+    }
+   ]
+  },
+  {
+   "id": "w04-03",
+   "week": 4,
+   "difficulty": 2,
+   "title": "Column-oriented storage",
+   "topic": "Data structures",
+   "prompt": "Build a dictionary called columns mapping the key city to the list [\"KL\", \"SG\"] and temp to the list [32, 30], then print the number of cities.",
+   "hint": "len(columns[\"city\"]).",
+   "code": "columns = {\"city\": [\"KL\", \"SG\"], \"temp\": [32, 30]}\nprint(len(columns[\"city\"]))",
+   "lines": 2,
+   "chars": 78,
+   "explain": "The column-oriented alternative to a list of rows: one dict, one key per column, each value a list of that column's entries. Arrow-style tools and APIs often hand data back in this shape, and NumPy/pandas love it because each column is contiguous.",
+   "gotcha": "The lists must be the same length — a short column silently produces misaligned rows.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "columns = {\"city\": [\"KL\", \"SG\"], \"temp\": [32, 30]}",
+     "note": "Two columns: \"city\" holds two strings, \"temp\" holds two numbers, positionally aligned."
+    },
+    {
+     "line": 2,
+     "code": "print(len(columns[\"city\"]))",
+     "note": "Counts the entries in the city column, printing 2."
+    }
+   ]
+  },
+  {
+   "id": "w04-04",
+   "week": 4,
+   "difficulty": 2,
+   "title": "Unique values with a set",
+   "topic": "Sets",
+   "prompt": "Create a set called cities containing \"KL\", \"SG\" and a repeated \"KL\", then print how many unique values it holds.",
+   "hint": "Sets drop duplicates automatically; use len().",
+   "code": "cities = {\"KL\", \"SG\", \"KL\"}\nprint(len(cities))",
+   "lines": 2,
+   "chars": 46,
+   "explain": "Sets store only unique values, so duplicates collapse on creation. This is the quickest way to answer “how many distinct categories are in this column?” without loading pandas.",
+   "gotcha": "Sets are unordered, so you cannot index them with [0] — use `sorted(cities)[0]` instead.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "cities = {\"KL\", \"SG\", \"KL\"}",
+     "note": "\"KL\" appears twice in the literal but the set keeps it once, so the set is {\"KL\", \"SG\"}."
+    },
+    {
+     "line": 2,
+     "code": "print(len(cities))",
+     "note": "len() on a set counts unique members, printing 2."
+    }
+   ]
+  },
+  {
+   "id": "w04-05",
+   "week": 4,
+   "difficulty": 1,
+   "title": "Tuple unpacking",
+   "topic": "Tuples",
+   "prompt": "Unpack the tuple (1, 2) into variables first and second, then print their sum.",
+   "hint": "first, second = (1, 2) on a single line.",
+   "code": "first, second = (1, 2)\nprint(first + second)",
+   "lines": 2,
+   "chars": 44,
+   "explain": "Unpacks a tuple into named variables in a single assignment. Python matches positions on the left to values on the right, which is the same mechanism `for index, row in df.iterrows()` relies on.",
+   "gotcha": "The counts must match: three names for a two-item tuple raises ValueError.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "first, second = (1, 2)",
+     "note": "Two targets, two values — first gets 1, second gets 2."
+    },
+    {
+     "line": 2,
+     "code": "print(first + second)",
+     "note": "Adds them and prints 3."
+    }
+   ]
+  },
+  {
+   "id": "w04-06",
+   "week": 4,
+   "difficulty": 3,
+   "title": "Count categories with defaultdict",
+   "topic": "Collections",
+   "prompt": "Import defaultdict from collections, create counts with int as the default factory, count the values in the list [\"KL\", \"SG\", \"KL\"] by incrementing counts[city], then print counts.",
+   "hint": "defaultdict(int) starts every missing key at 0.",
+   "code": "from collections import defaultdict\n\ncounts = defaultdict(int)\nfor city in [\"KL\", \"SG\", \"KL\"]:\n    counts[city] += 1\nprint(counts)",
+   "lines": 6,
+   "chars": 130,
+   "explain": "Counts how often each value occurs without an `if key in counts` check. `defaultdict(int)` invents a default of 0 the first time a key is seen, so `+= 1` always works. This is the manual version of `df[\"city\"].value_counts()`.",
+   "gotcha": "A plain `{}` raises KeyError on `counts[city] += 1` the first time a value appears.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "from collections import defaultdict",
+     "note": "Imports defaultdict from the standard-library collections module."
+    },
+    {
+     "line": 3,
+     "code": "counts = defaultdict(int)",
+     "note": "A dict whose missing keys default to int() — that is, 0."
+    },
+    {
+     "line": 4,
+     "code": "for city in [\"KL\", \"SG\", \"KL\"]:",
+     "note": "Loops over three city values, one of which repeats."
+    },
+    {
+     "line": 5,
+     "code": "    counts[city] += 1",
+     "note": "First sighting of a key starts at 0, so this becomes 1; the repeat reaches 2."
+    },
+    {
+     "line": 6,
+     "code": "print(counts)",
+     "note": "Prints defaultdict(<class 'int'>, {'KL': 2, 'SG': 1})."
+    }
+   ]
+  },
+  {
+   "id": "w04-07",
+   "week": 4,
+   "difficulty": 2,
+   "title": "Sort rows by a column",
+   "topic": "Sorting",
+   "prompt": "Sort the list rows in place by the \"temp\" key in descending order using a lambda key function.",
+   "hint": "rows.sort(key=lambda r: r[\"temp\"], reverse=True).",
+   "code": "rows.sort(key=lambda r: r[\"temp\"], reverse=True)",
+   "lines": 1,
+   "chars": 48,
+   "explain": "Sorts the row list in place by a field. `key=` names the value to sort on (here a lambda that pulls `row[\"temp\"]`), and `reverse=True` puts the largest first. `list.sort()` mutates the list and returns None, unlike `sorted()` which returns a new list.",
+   "gotcha": "`rows = rows.sort(...)` assigns None — either call sort() alone or use sorted(rows, ...).",
+   "notes": [
+    {
+     "line": 1,
+     "code": "rows.sort(key=lambda r: r[\"temp\"], reverse=True)",
+     "note": "Sorts rows by the \"temp\" value, highest first. The lambda receives one row and returns its sort key."
+    }
+   ]
+  },
+  {
+   "id": "w05-01",
+   "week": 5,
+   "difficulty": 2,
+   "title": "Load a CSV into a DataFrame",
+   "topic": "Pandas I/O",
+   "prompt": "Import pandas as pd, load \"data.csv\" into a DataFrame called df, then print its shape.",
+   "hint": "pd.read_csv() then df.shape.",
+   "code": "import pandas as pd\n\ndf = pd.read_csv(\"data.csv\")\nprint(df.shape)",
+   "lines": 4,
+   "chars": 65,
+   "explain": "The entry point of nearly every pandas workflow: read a CSV into a DataFrame. `pd.read_csv` infers column names from the header and dtypes from the values; `df.shape` then reports (rows, columns), the fastest sanity check that the file loaded as expected.",
+   "gotcha": "A FileNotFoundError here almost always means the notebook's working directory is not where the CSV lives.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "import pandas as pd",
+     "note": "Imports pandas under the universal alias pd."
+    },
+    {
+     "line": 3,
+     "code": "df = pd.read_csv(\"data.csv\")",
+     "note": "Reads data.csv from the working directory into a DataFrame called df."
+    },
+    {
+     "line": 4,
+     "code": "print(df.shape)",
+     "note": "shape is a tuple (n_rows, n_cols), e.g. (1000, 5)."
+    }
+   ]
+  },
+  {
+   "id": "w05-02",
+   "week": 5,
+   "difficulty": 1,
+   "title": "Preview the top and bottom rows",
+   "topic": "Pandas inspection",
+   "prompt": "Print the first five rows of df, then the last three rows.",
+   "hint": "df.head() defaults to five rows; df.tail(3) gives three.",
+   "code": "print(df.head())\nprint(df.tail(3))",
+   "lines": 2,
+   "chars": 34,
+   "explain": "Sneak-peeks the frame. `head()` shows the first five rows and `tail(3)` the last three — useful for checking that the column names parsed correctly and that totals or trailing junk are not sitting at the end of the file.",
+   "gotcha": "head()/tail() only display — they do not modify df.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "print(df.head())",
+     "note": "First five rows, with the index on the left and every column across."
+    },
+    {
+     "line": 2,
+     "code": "print(df.tail(3))",
+     "note": "Passing 3 overrides the default of five, giving the last three rows."
+    }
+   ]
+  },
+  {
+   "id": "w05-03",
+   "week": 5,
+   "difficulty": 1,
+   "title": "Inspect schema and dtypes",
+   "topic": "Pandas inspection",
+   "prompt": "Print a concise schema summary of df that shows column names, non-null counts and dtypes.",
+   "hint": "df.info() prints exactly that summary.",
+   "code": "df.info()",
+   "lines": 1,
+   "chars": 9,
+   "explain": "Prints a compact schema report: index range, every column name, how many non-null values it has and its dtype, plus memory usage. It is the one call that tells you whether a column is numeric or accidentally text, and whether gaps exist.",
+   "gotcha": "If a numeric column shows `object`, some value in it is text — often a comma or a blank string.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "df.info()",
+     "note": "Prints the schema summary. Read the Dtype column: `object` means text, so maths will fail."
+    }
+   ]
+  },
+  {
+   "id": "w05-04",
+   "week": 5,
+   "difficulty": 2,
+   "title": "Select a column",
+   "topic": "Pandas selection",
+   "prompt": "Store the \"temp\" column of df in temps, then print its maximum value.",
+   "hint": "df[\"temp\"] selects a Series; .max() reduces it.",
+   "code": "temps = df[\"temp\"]\nprint(temps.max())",
+   "lines": 2,
+   "chars": 37,
+   "explain": "Selects a single column, which pandas returns as a Series (one dimension), then reduces it to a single number with `.max()`. `df[\"temp\"]` with one pair of brackets is a column; `df[[\"temp\"]]` with two would return a one-column DataFrame.",
+   "gotcha": "`df[temp]` without quotes looks for a variable named temp and raises NameError.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "temps = df[\"temp\"]",
+     "note": "Single brackets select the column named \"temp\" and return a Series."
+    },
+    {
+     "line": 2,
+     "code": "print(temps.max())",
+     "note": "max() reduces that whole Series to its largest value."
+    }
+   ]
+  },
+  {
+   "id": "w05-05",
+   "week": 5,
+   "difficulty": 2,
+   "title": "Filter rows with a condition",
+   "topic": "Pandas filtering",
+   "prompt": "Keep only the rows of df where \"temp\" is greater than 30, store them in hot, then print the first five rows of hot.",
+   "hint": "df[df[\"temp\"] > 30].head().",
+   "code": "hot = df[df[\"temp\"] > 30]\nprint(hot.head())",
+   "lines": 2,
+   "chars": 43,
+   "explain": "Boolean filtering: `df[\"temp\"] > 30` produces a True/False Series, and using that inside `df[...]` keeps only the rows where it is True. Chain `.head()` to eyeball the survivors instead of printing thousands of rows.",
+   "gotcha": "The mask must come from the same DataFrame and the same index — compare df to df, not to a filtered copy.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "hot = df[df[\"temp\"] > 30]",
+     "note": "The comparison builds a boolean mask; df[mask] returns only the rows where it is True."
+    },
+    {
+     "line": 2,
+     "code": "print(hot.head())",
+     "note": "Shows the first five matching rows."
+    }
+   ]
+  },
+  {
+   "id": "w05-06",
+   "week": 5,
+   "difficulty": 3,
+   "title": "Combine two filter conditions",
+   "topic": "Pandas filtering",
+   "prompt": "Select the rows of df where \"temp\" is above 30 AND \"city\" equals \"KL\", wrapping each condition in brackets and joining them with an ampersand.",
+   "hint": "df[(df[\"temp\"] > 30) & (df[\"city\"] == \"KL\")].",
+   "code": "hot = df[(df[\"temp\"] > 30) & (df[\"city\"] == \"KL\")]",
+   "lines": 1,
+   "chars": 50,
+   "explain": "Combines two conditions with `&` (element-wise AND). Each condition needs its own parentheses because `&` binds tighter than `>` and `==`, and Python's `and` cannot be used on Series at all.",
+   "gotcha": "`and` raises “truth value of a Series is ambiguous”; always use `&`, `|` with parentheses.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "hot = df[(df[\"temp\"] > 30) & (df[\"city\"] == \"KL\")]",
+     "note": "Both masks are bracketed, then combined with & — rows must be above 30 AND in \"KL\" to survive."
+    }
+   ]
+  },
+  {
+   "id": "w05-07",
+   "week": 5,
+   "difficulty": 2,
+   "title": "Count missing values",
+   "topic": "Missing data",
+   "prompt": "Print the number of missing values per column in df, then drop every row that contains a missing value and reassign the result to df.",
+   "hint": "df.isna().sum(), then df = df.dropna().",
+   "code": "print(df.isna().sum())\ndf = df.dropna()",
+   "lines": 2,
+   "chars": 39,
+   "explain": "Measures and then removes missing data. `isna()` marks every missing cell True and `.sum()` counts those per column; `dropna()` then removes any row containing at least one missing value. Check the counts first — dropping rows can quietly destroy most of a dataset.",
+   "gotcha": "`df.dropna()` without reassignment changes nothing — the result must be stored or passed inplace=True.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "print(df.isna().sum())",
+     "note": "isna() gives a True/False frame, sum() adds the Trues per column, so you see missing counts per column."
+    },
+    {
+     "line": 2,
+     "code": "df = df.dropna()",
+     "note": "Drops every row with at least one NaN and rebinds df to the result (dropna is not in place by default)."
+    }
+   ]
+  },
+  {
+   "id": "w05-08",
+   "week": 5,
+   "difficulty": 3,
+   "title": "Impute missing values with the mean",
+   "topic": "Missing data",
+   "prompt": "Fill the missing values in the \"temp\" column of df with that column's mean, assigning the result back to the column.",
+   "hint": "df[\"temp\"].fillna(df[\"temp\"].mean()).",
+   "code": "df[\"temp\"] = df[\"temp\"].fillna(df[\"temp\"].mean())",
+   "lines": 1,
+   "chars": 49,
+   "explain": "Imputes missing numbers with the column mean instead of deleting rows, preserving sample size. The right-hand side computes the mean of the non-missing values, `fillna` replaces the NaNs, and the result is assigned back into the same column.",
+   "gotcha": "This shrinks the column's variance and hides uncertainty — mention it as a limitation in any report.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "df[\"temp\"] = df[\"temp\"].fillna(df[\"temp\"].mean())",
+     "note": "Computes the mean of \"temp\" ignoring NaNs, fills each NaN with it, then overwrites the original column."
+    }
+   ]
+  },
+  {
+   "id": "w05-09",
+   "week": 5,
+   "difficulty": 3,
+   "title": "Label and positional indexing",
+   "topic": "Pandas indexing",
+   "prompt": "Print the \"temp\" value of the first row using .loc with labels, then print the first five rows of the first column using .iloc.",
+   "hint": "df.loc[0, \"temp\"] and df.iloc[:5, 0].",
+   "code": "print(df.loc[0, \"temp\"])\nprint(df.iloc[:5, 0])",
+   "lines": 2,
+   "chars": 46,
+   "explain": "Contrasts label-based and position-based indexing. `.loc[row_label, column_name]` works with names, while `.iloc[row_position, column_position]` works with integer offsets. Here `.loc` grabs one cell and `.iloc` grabs the first five rows of the first column.",
+   "gotcha": "With a non-default index, `df.loc[0]` may not be the first row — that is exactly why iloc exists.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "print(df.loc[0, \"temp\"])",
+     "note": "Label-based: row with index label 0, column named \"temp\". Prints a single scalar."
+    },
+    {
+     "line": 2,
+     "code": "print(df.iloc[:5, 0])",
+     "note": "Position-based: rows 0-4 (stop 5 excluded) from column position 0. Returns a Series."
+    }
+   ]
+  },
+  {
+   "id": "w06-01",
+   "week": 6,
+   "difficulty": 3,
+   "title": "Review: load, clean, filter",
+   "topic": "Mid-term review",
+   "prompt": "Load \"data.csv\" into df, drop missing rows, then keep rows where \"sales\" exceeds 100 and print the shape of the result.",
+   "hint": "Three steps chained over three statements; use df.shape at the end.",
+   "code": "import pandas as pd\n\ndf = pd.read_csv(\"data.csv\")\ndf = df.dropna()\nbig = df[df[\"sales\"] > 100]\nprint(big.shape)",
+   "lines": 6,
+   "chars": 111,
+   "explain": "A five-line mini-pipeline that reviews Weeks 2–5: import, load, clean, filter, report. Each step is a separate statement so you can inspect the frame in between — this is how you should build every analysis before collapsing it into one chain.",
+   "gotcha": "Filtering before dropping NaNs and after gives different counts — always clean first, then filter.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "import pandas as pd",
+     "note": "Import the one library the snippet needs."
+    },
+    {
+     "line": 3,
+     "code": "df = pd.read_csv(\"data.csv\")",
+     "note": "Load the raw file."
+    },
+    {
+     "line": 4,
+     "code": "df = df.dropna()",
+     "note": "Drop the incomplete rows before any counting."
+    },
+    {
+     "line": 5,
+     "code": "big = df[df[\"sales\"] > 100]",
+     "note": "Keep only rows where \"sales\" beats 100."
+    },
+    {
+     "line": 6,
+     "code": "print(big.shape)",
+     "note": "Report the surviving size as (rows, columns)."
+    }
+   ]
+  },
+  {
+   "id": "w06-02",
+   "week": 6,
+   "difficulty": 3,
+   "title": "Review: API response to DataFrame",
+   "topic": "Mid-term review",
+   "prompt": "Fetch https://api.example.com/sales, raise for errors, convert the JSON reply to a DataFrame and print its columns as a list.",
+   "hint": "requests.get(...).raise_for_status(), then pd.DataFrame(response.json()), then list(df.columns).",
+   "code": "import requests\nimport pandas as pd\n\nresponse = requests.get(\"https://api.example.com/sales\")\nresponse.raise_for_status()\ndf = pd.DataFrame(response.json())\nprint(list(df.columns))",
+   "lines": 7,
+   "chars": 180,
+   "explain": "Moves data from the web into pandas in one pass: fetch, check, decode, tabulate. `response.json()` produces a list of dicts, `pd.DataFrame(...)` turns it into a table, and `list(df.columns)` confirms the API's field names arrived as columns.",
+   "gotcha": "If the JSON is nested (records under a key), build the frame from `response.json()[\"items\"]` instead.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "import requests",
+     "note": "Imports for the HTTP call."
+    },
+    {
+     "line": 2,
+     "code": "import pandas as pd",
+     "note": "Imports pandas for the table."
+    },
+    {
+     "line": 4,
+     "code": "response = requests.get(\"https://api.example.com/sales\")",
+     "note": "Fetches the endpoint."
+    },
+    {
+     "line": 5,
+     "code": "response.raise_for_status()",
+     "note": "Raises immediately if the status is 4xx/5xx."
+    },
+    {
+     "line": 6,
+     "code": "df = pd.DataFrame(response.json())",
+     "note": "Converts the decoded JSON (a list of dicts) into a DataFrame — keys become columns."
+    },
+    {
+     "line": 7,
+     "code": "print(list(df.columns))",
+     "note": "Prints the column names as a plain Python list."
+    }
+   ]
+  },
+  {
+   "id": "w06-03",
+   "week": 6,
+   "difficulty": 3,
+   "title": "Review: scraped rows to DataFrame",
+   "topic": "Mid-term review",
+   "prompt": "Parse the html string into soup, build a list called rows of dictionaries with keys \"name\" and \"price\" from each div with class \"product\", then print the DataFrame length.",
+   "hint": "Use find_all(\"div\", class_=\"product\") inside a comprehension, then pd.DataFrame(rows).",
+   "code": "from bs4 import BeautifulSoup\nimport pandas as pd\n\nsoup = BeautifulSoup(html, \"html.parser\")\nrows = [\n    {\"name\": d.find(\"h2\").get_text(), \"price\": d.find(\"span\").get_text()}\n    for d in soup.find_all(\"div\", class_=\"product\")\n]\nprint(len(pd.DataFrame(rows)))",
+   "lines": 9,
+   "chars": 260,
+   "explain": "Scraping straight into a table. For each product card, a dict is built from the two nested elements that hold the name and price; the resulting list of dicts becomes a DataFrame. This is the standard “parse repeated blocks into rows” recipe.",
+   "gotcha": "If a card lacks an h2, `.find(...)` returns None and `.get_text()` raises AttributeError — guard with a try or `if`.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "from bs4 import BeautifulSoup",
+     "note": "HTML parser import."
+    },
+    {
+     "line": 2,
+     "code": "import pandas as pd",
+     "note": "pandas import for the final table."
+    },
+    {
+     "line": 4,
+     "code": "soup = BeautifulSoup(html, \"html.parser\")",
+     "note": "Parses the page markup into a searchable tree."
+    },
+    {
+     "line": 5,
+     "code": "rows = [",
+     "note": "Starts the rows list; each entry will be one product."
+    },
+    {
+     "line": 6,
+     "code": "    {\"name\": d.find(\"h2\").get_text(), \"price\": d.find(\"span\").get_text()}",
+     "note": "Per card: find the h2 for the name and the span for the price, taking text from each."
+    },
+    {
+     "line": 7,
+     "code": "    for d in soup.find_all(\"div\", class_=\"product\")",
+     "note": "Drives the comprehension — every div whose class is \"product\" contributes one row."
+    },
+    {
+     "line": 8,
+     "code": "]",
+     "note": "Closes the list."
+    },
+    {
+     "line": 9,
+     "code": "print(len(pd.DataFrame(rows)))",
+     "note": "Builds the DataFrame and prints its row count."
+    }
+   ]
+  },
+  {
+   "id": "w06-04",
+   "week": 6,
+   "difficulty": 2,
+   "title": "Review: value counts as a dictionary",
+   "topic": "Mid-term review",
+   "prompt": "Using a dictionary comprehension over the set of cities in the list cities, count occurrences with the .count method.",
+   "hint": "{c: cities.count(c) for c in set(cities)}.",
+   "code": "counts = {c: cities.count(c) for c in set(cities)}\nprint(counts)",
+   "lines": 2,
+   "chars": 64,
+   "explain": "Counts occurrences of each distinct value using a dict comprehension. `set(cities)` gives the unique names and `list.count` counts each one, producing the same dict as `value_counts().to_dict()` but without pandas.",
+   "gotcha": "This rescans the list once per unique value — fine for small lists, O(n²) for large ones.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "counts = {c: cities.count(c) for c in set(cities)}",
+     "note": "For each unique city, map it to how many times it appears — the comprehension builds the whole dict."
+    },
+    {
+     "line": 2,
+     "code": "print(counts)",
+     "note": "Prints something like {'KL': 2, 'SG': 1}."
+    }
+   ]
+  },
+  {
+   "id": "w06-05",
+   "week": 6,
+   "difficulty": 3,
+   "title": "Review: loop over DataFrame rows",
+   "topic": "Mid-term review",
+   "prompt": "Iterate over df with iterrows, unpacking index and row, and print the \"city\" value of each row.",
+   "hint": "for index, row in df.iterrows(): then print(row[\"city\"]).",
+   "code": "for index, row in df.iterrows():\n    print(row[\"city\"])",
+   "lines": 2,
+   "chars": 55,
+   "explain": "Iterates a DataFrame row by row. `iterrows()` yields an (index, Series) pair per row, which is why two names go on the left. It is readable but slow — vectorised column operations are the preferred default.",
+   "gotcha": "Values may be upcast when a row mixes dtypes, so iterrows can silently turn ints into floats.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "for index, row in df.iterrows():",
+     "note": "Unpacks each row into its label and a Series of that row's values."
+    },
+    {
+     "line": 2,
+     "code": "    print(row[\"city\"])",
+     "note": "Prints the \"city\" field of the current row."
+    }
+   ]
+  },
+  {
+   "id": "w06-06",
+   "week": 6,
+   "difficulty": 3,
+   "title": "Review: selective CSV load",
+   "topic": "Mid-term review",
+   "prompt": "Read only the columns \"city\" and \"temp\" from \"data.csv\", forcing the \"temp\" column to the float dtype.",
+   "hint": "pd.read_csv with usecols and dtype as dictionaries.",
+   "code": "df = pd.read_csv(\n    \"data.csv\",\n    usecols=[\"city\", \"temp\"],\n    dtype={\"temp\": float},\n)",
+   "lines": 5,
+   "chars": 92,
+   "explain": "Reads only what you need. `usecols` skips unwanted columns at parse time (much faster on wide files) and `dtype` forces a column's type so IDs keep leading zeros and numeric columns already behave like numbers.",
+   "gotcha": "Read most ID-like columns as `str`, otherwise pandas strips leading zeros from values such as \"007\".",
+   "notes": [
+    {
+     "line": 1,
+     "code": "df = pd.read_csv(",
+     "note": "Opens the read_csv call; arguments are split across lines for readability."
+    },
+    {
+     "line": 2,
+     "code": "    \"data.csv\",",
+     "note": "The path to the file."
+    },
+    {
+     "line": 3,
+     "code": "    usecols=[\"city\", \"temp\"],",
+     "note": "Keeps only these two columns, discarding the rest while reading."
+    },
+    {
+     "line": 4,
+     "code": "    dtype={\"temp\": float},",
+     "note": "Forces \"temp\" to float — useful when the raw column contains blanks or text."
+    },
+    {
+     "line": 5,
+     "code": ")",
+     "note": "Trailing comma and close bracket — valid formatting."
+    }
+   ]
+  },
+  {
+   "id": "w07-01",
+   "week": 7,
+   "difficulty": 2,
+   "title": "Group and aggregate",
+   "topic": "GroupBy",
+   "prompt": "Group df by \"city\", take the \"temp\" column and print the mean temperature per city.",
+   "hint": "df.groupby(\"city\")[\"temp\"].mean().",
+   "code": "print(df.groupby(\"city\")[\"temp\"].mean())",
+   "lines": 1,
+   "chars": 40,
+   "explain": "Split-apply-combine in a single line: `groupby(\"city\")` forms one group per distinct city, selecting `[\"temp\"]` narrows to that column, and `.mean()` collapses each group to one number. The result is a Series indexed by city.",
+   "gotcha": "groupby drops NaN keys by default — add dropna=False if missing categories matter.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "print(df.groupby(\"city\")[\"temp\"].mean())",
+     "note": "Groups rows by city, keeps the temp column, averages within each group and prints the Series."
+    }
+   ]
+  },
+  {
+   "id": "w07-02",
+   "week": 7,
+   "difficulty": 3,
+   "title": "Multiple aggregations per group",
+   "topic": "GroupBy",
+   "prompt": "Group df by \"city\" and produce both the mean and the maximum of the \"temp\" column in one aggregation call.",
+   "hint": ".agg({\"temp\": [\"mean\", \"max\"]}).",
+   "code": "summary = df.groupby(\"city\").agg({\"temp\": [\"mean\", \"max\"]})\nprint(summary)",
+   "lines": 2,
+   "chars": 74,
+   "explain": "Produces several statistics per group at once with `.agg({column: [functions]})`. The output has a MultiIndex column header (temp → mean, temp → max), which is why the result is often flattened before charting or exporting.",
+   "gotcha": "After .agg with a list you get MultiIndex columns — use `.columns = ['_'.join(c) for c in ...]` to flatten.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "summary = df.groupby(\"city\").agg({\"temp\": [\"mean\", \"max\"]})",
+     "note": "One aggregation call returning both the mean and the maximum of \"temp\" per city."
+    },
+    {
+     "line": 2,
+     "code": "print(summary)",
+     "note": "Prints a two-level column table, one row per city."
+    }
+   ]
+  },
+  {
+   "id": "w07-03",
+   "week": 7,
+   "difficulty": 3,
+   "title": "Merge two DataFrames",
+   "topic": "Joins",
+   "prompt": "Left-join the orders DataFrame with customers on the key \"customer_id\" and store the result in merged.",
+   "hint": "pd.merge(..., on=..., how=\"left\").",
+   "code": "merged = pd.merge(orders, customers, on=\"customer_id\", how=\"left\")",
+   "lines": 1,
+   "chars": 66,
+   "explain": "Joins two tables on a shared key. `how=\"left\"` keeps every row of `orders` and attaches matching customer fields where available, leaving NaN where there is no match — the safe default when the left table is your primary data.",
+   "gotcha": "An inner join silently drops unmatched orders — check `merged[\"customer_id\"].isna().sum()` after a left join.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "merged = pd.merge(orders, customers, on=\"customer_id\", how=\"left\")",
+     "note": "Matches rows where customer_id is equal in both frames; keeps all orders even without a customer match."
+    }
+   ]
+  },
+  {
+   "id": "w07-04",
+   "week": 7,
+   "difficulty": 3,
+   "title": "Stack rows with concat",
+   "topic": "Concatenation",
+   "prompt": "Vertically stack df1 and df2 into full, rebuilding the index instead of keeping the original labels.",
+   "hint": "pd.concat([df1, df2], ignore_index=True).",
+   "code": "full = pd.concat([df1, df2], ignore_index=True)",
+   "lines": 1,
+   "chars": 47,
+   "explain": "Stacks DataFrames vertically, one on top of the other, useful for combining monthly exports that share columns. `ignore_index=True` renumbers rows 0..n so the original labels do not repeat and confuse `.loc`.",
+   "gotcha": "Without ignore_index you get duplicate index values, and later `.loc[0]` returns several rows.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "full = pd.concat([df1, df2], ignore_index=True)",
+     "note": "Concatenates the two frames row-wise; ignore_index rebuilds a clean 0..n-1 index."
+    }
+   ]
+  },
+  {
+   "id": "w07-05",
+   "week": 7,
+   "difficulty": 2,
+   "title": "Sort a DataFrame",
+   "topic": "Sorting",
+   "prompt": "Sort df by \"temp\" in descending order, assigning the sorted frame back to df, then print the first five rows.",
+   "hint": "df.sort_values(\"temp\", ascending=False).head().",
+   "code": "df = df.sort_values(\"temp\", ascending=False)\nprint(df.head())",
+   "lines": 2,
+   "chars": 61,
+   "explain": "Orders rows by a column's values. `ascending=False` puts the largest first; the sorted frame is assigned back to `df` because `sort_values` returns a new object rather than sorting in place.",
+   "gotcha": "`.sort(inplace=True)` is deprecated for DataFrames — use `.sort_values(...)` and reassign.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "df = df.sort_values(\"temp\", ascending=False)",
+     "note": "Sorts by temp, biggest first, and rebinds df to the sorted copy."
+    },
+    {
+     "line": 2,
+     "code": "print(df.head())",
+     "note": "Confirms the new order with the first five rows."
+    }
+   ]
+  },
+  {
+   "id": "w07-06",
+   "week": 7,
+   "difficulty": 1,
+   "title": "Count category frequencies",
+   "topic": "Pandas inspection",
+   "prompt": "Print how many times each distinct value appears in the \"city\" column of df.",
+   "hint": "df[\"city\"].value_counts().",
+   "code": "print(df[\"city\"].value_counts())",
+   "lines": 1,
+   "chars": 32,
+   "explain": "Counts how often each distinct value appears in a column and returns it sorted from most to least frequent. The result is a Series indexed by the category, which is the quickest categorical profile you can run on a new dataset.",
+   "gotcha": "Add `normalize=True` to get proportions, or `dropna=False` to include missing values in the tally.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "print(df[\"city\"].value_counts())",
+     "note": "Tallies each distinct value in \"city\", descending by count."
+    }
+   ]
+  },
+  {
+   "id": "w07-07",
+   "week": 7,
+   "difficulty": 3,
+   "title": "Create a derived column",
+   "topic": "Feature engineering",
+   "prompt": "Add a column \"fahrenheit\" to df computed from \"temp\" with the lambda t: t * 9 / 5 + 32 applied through .apply.",
+   "hint": "df[\"fahrenheit\"] = df[\"temp\"].apply(lambda t: ...).",
+   "code": "df[\"fahrenheit\"] = df[\"temp\"].apply(lambda t: t * 9 / 5 + 32)",
+   "lines": 1,
+   "chars": 61,
+   "explain": "Adds a new computed column by applying a function element-wise. The lambda converts each temperature to Fahrenheit and the result is assigned to a new column name — the standard feature-engineering move before modelling.",
+   "gotcha": "Vectorised arithmetic (`df[\"temp\"] * 9 / 5 + 32`) is the same result and much faster than apply.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "df[\"fahrenheit\"] = df[\"temp\"].apply(lambda t: t * 9 / 5 + 32)",
+     "note": "\"temp\" goes through the lambda t: t*9/5+32 for every row, and the outputs become a new column."
+    }
+   ]
+  },
+  {
+   "id": "w07-08",
+   "week": 7,
+   "difficulty": 3,
+   "title": "Pivot table",
+   "topic": "Reshaping",
+   "prompt": "Build a pivot table called pivot with \"city\" as the index, \"month\" as the columns, mean of \"temp\" as values.",
+   "hint": "df.pivot_table(index=..., columns=..., values=..., aggfunc=\"mean\").",
+   "code": "pivot = df.pivot_table(\n    index=\"city\",\n    columns=\"month\",\n    values=\"temp\",\n    aggfunc=\"mean\",\n)",
+   "lines": 6,
+   "chars": 103,
+   "explain": "Reshapes long data into a matrix: one row per city, one column per month, and the mean temperature in the cells. Pivot tables are how you turn tidy records into a comparison grid for a heatmap or report.",
+   "gotcha": "Without aggfunc, duplicate city/month pairs raise a ValueError instead of being summarised.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "pivot = df.pivot_table(",
+     "note": "Starts the pivot_table call, wrapped across lines."
+    },
+    {
+     "line": 2,
+     "code": "    index=\"city\",",
+     "note": "Cities become the row labels."
+    },
+    {
+     "line": 3,
+     "code": "    columns=\"month\",",
+     "note": "Months become the column headers."
+    },
+    {
+     "line": 4,
+     "code": "    values=\"temp\",",
+     "note": "The numbers filling the grid come from the temp column."
+    },
+    {
+     "line": 5,
+     "code": "    aggfunc=\"mean\",",
+     "note": "Where several rows share a cell, average them — this is the aggregation step."
+    },
+    {
+     "line": 6,
+     "code": ")",
+     "note": "Closes the call; the result is a DataFrame indexed by city."
+    }
+   ]
+  },
+  {
+   "id": "w08-01",
+   "week": 8,
+   "difficulty": 1,
+   "title": "Create a NumPy array",
+   "topic": "NumPy basics",
+   "prompt": "Import numpy as np, build an array of 21.5, 23.0 and 19.8 called temps, then print its shape.",
+   "hint": "np.array([...]) then temps.shape.",
+   "code": "import numpy as np\n\ntemps = np.array([21.5, 23.0, 19.8])\nprint(temps.shape)",
+   "lines": 4,
+   "chars": 75,
+   "explain": "Creates a NumPy array, the container pandas is built on. Unlike a list, an array has one dtype, a fixed shape and supports fast element-wise maths. `shape` reports its dimensions — a one-dimensional array of three numbers shows as (3,).",
+   "gotcha": "A trailing comma in (3,) is what makes it a shape tuple — (3) is just the number 3.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "import numpy as np",
+     "note": "Imports NumPy under the conventional alias np."
+    },
+    {
+     "line": 3,
+     "code": "temps = np.array([21.5, 23.0, 19.8])",
+     "note": "np.array converts the Python list into a typed, vectorised array."
+    },
+    {
+     "line": 4,
+     "code": "print(temps.shape)",
+     "note": "shape is a tuple of dimensions; here (3,) means three elements in one dimension."
+    }
+   ]
+  },
+  {
+   "id": "w08-02",
+   "week": 8,
+   "difficulty": 2,
+   "title": "Vectorised arithmetic",
+   "topic": "NumPy basics",
+   "prompt": "Convert the whole temps array from Fahrenheit to Celsius in one vectorised expression using (temps - 32) * 5 / 9.",
+   "hint": "No loop and no brackets around the array are needed.",
+   "code": "celsius = (temps - 32) * 5 / 9",
+   "lines": 1,
+   "chars": 30,
+   "explain": "Vectorisation: the arithmetic is applied to every element at once, with no loop. `(temps - 32) * 5 / 9` is the Fahrenheit→Celsius formula evaluated element-wise, and NumPy returns a new array of the same shape.",
+   "gotcha": "Never loop over an array for this; vectorised operations are orders of magnitude faster.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "celsius = (temps - 32) * 5 / 9",
+     "note": "Subtracts 32 from every element, multiplies by 5 and divides by 9 — all in one expression, no loop."
+    }
+   ]
+  },
+  {
+   "id": "w08-03",
+   "week": 8,
+   "difficulty": 2,
+   "title": "Boolean masking",
+   "topic": "NumPy indexing",
+   "prompt": "Keep only the entries of temps greater than 22, store them in hot, then print the mean of hot.",
+   "hint": "temps[temps > 22] then .mean().",
+   "code": "hot = temps[temps > 22]\nprint(hot.mean())",
+   "lines": 2,
+   "chars": 41,
+   "explain": "Boolean masking filters an array. `temps > 22` produces an array of True/False, and indexing with it keeps only the positions that are True. The filtered array is shorter, so it can be reduced immediately with `.mean()`.",
+   "gotcha": "The mask must have the same length as the array, or NumPy raises an IndexError.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "hot = temps[temps > 22]",
+     "note": "The comparison builds a boolean mask; temps[mask] keeps only the entries that are True."
+    },
+    {
+     "line": 2,
+     "code": "print(hot.mean())",
+     "note": "Averaging the survivors — a conditional mean in two lines."
+    }
+   ]
+  },
+  {
+   "id": "w08-04",
+   "week": 8,
+   "difficulty": 2,
+   "title": "Mean and standard deviation",
+   "topic": "Descriptive statistics",
+   "prompt": "Print the mean and the standard deviation of temps in a single print call using NumPy functions.",
+   "hint": "np.mean(temps), np.std(temps).",
+   "code": "print(np.mean(temps), np.std(temps))",
+   "lines": 1,
+   "chars": 36,
+   "explain": "Summarises a distribution with two numbers: the mean (centre) and the standard deviation (spread). Both are single function calls on the array, and both are computed on all elements at once.",
+   "gotcha": "np.std uses the population formula (ddof=0); pandas' `.std()` uses ddof=1 — they differ slightly.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "print(np.mean(temps), np.std(temps))",
+     "note": "Prints the average and then the standard deviation, separated by a space."
+    }
+   ]
+  },
+  {
+   "id": "w08-05",
+   "week": 8,
+   "difficulty": 3,
+   "title": "Build and reshape a grid",
+   "topic": "NumPy shapes",
+   "prompt": "Create a 3 by 4 array called grid from the integers 0 to 11 using arange and reshape.",
+   "hint": "np.arange(12).reshape(3, 4).",
+   "code": "grid = np.arange(12).reshape(3, 4)",
+   "lines": 1,
+   "chars": 34,
+   "explain": "Builds and reshapes a grid. `np.arange(12)` makes the numbers 0–11 and `.reshape(3, 4)` reinterprets them as 3 rows by 4 columns — no data is copied, the shape changes. This is the mental model you need before touching any matrix or image data.",
+   "gotcha": "The total element count must match: reshape(3, 5) on 12 values raises ValueError.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "grid = np.arange(12).reshape(3, 4)",
+     "note": "arange(12) produces 0..11, and reshape(3, 4) arranges them into 3 rows of 4 columns."
+    }
+   ]
+  },
+  {
+   "id": "w08-06",
+   "week": 8,
+   "difficulty": 1,
+   "title": "Five-number summary",
+   "topic": "Descriptive statistics",
+   "prompt": "Print the descriptive statistics table (count, mean, std, min, quartiles, max) for all numeric columns of df.",
+   "hint": "df.describe() covers this in one call.",
+   "code": "print(df.describe())",
+   "lines": 1,
+   "chars": 20,
+   "explain": "One call that profiles every numeric column: count, mean, standard deviation, minimum, the three quartiles and the maximum. Comparing the mean with the median here immediately reveals skew, and the min/max reveal impossible outliers.",
+   "gotcha": "Non-numeric columns are ignored — add `include=\"all\"` to see object columns too.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "print(df.describe())",
+     "note": "Prints the eight-row summary table for all numeric columns of df."
+    }
+   ]
+  },
+  {
+   "id": "w08-07",
+   "week": 8,
+   "difficulty": 2,
+   "title": "Mean versus median",
+   "topic": "Descriptive statistics",
+   "prompt": "Print the mean and then the median of the \"temp\" column of df in a single print call, separated by a comma.",
+   "hint": "df[\"temp\"].mean(), df[\"temp\"].median().",
+   "code": "print(df[\"temp\"].mean(), df[\"temp\"].median())",
+   "lines": 1,
+   "chars": 45,
+   "explain": "Compares the mean with the median of the same column. When they are close the distribution is roughly symmetric; when the mean is pulled far above the median, the tail is long on the right and the median is the more honest summary.",
+   "gotcha": "Both skip NaN by default — a large gap between the values can also come from many missing entries.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "print(df[\"temp\"].mean(), df[\"temp\"].median())",
+     "note": "Prints the mean and the median of \"temp\" side by side for comparison."
+    }
+   ]
+  },
+  {
+   "id": "w09-01",
+   "week": 9,
+   "difficulty": 2,
+   "title": "Line plot with Matplotlib",
+   "topic": "Matplotlib",
+   "prompt": "Import matplotlib.pyplot as plt, plot the \"temp\" column of df as a line, add the title \"Temperature\" and show the figure.",
+   "hint": "plt.plot(), plt.title(), plt.show().",
+   "code": "import matplotlib.pyplot as plt\n\nplt.plot(df[\"temp\"])\nplt.title(\"Temperature\")\nplt.show()",
+   "lines": 5,
+   "chars": 89,
+   "explain": "Draws a line chart of a column against its row order. `plt.plot` creates the line, `plt.title` labels it, and `plt.show()` renders the figure and clears the canvas — without it, plots can pile up or not appear in scripts.",
+   "gotcha": "In a plain script nothing is drawn until `plt.show()` runs.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "import matplotlib.pyplot as plt",
+     "note": "Imports Matplotlib's pyplot interface under the conventional alias plt."
+    },
+    {
+     "line": 3,
+     "code": "plt.plot(df[\"temp\"])",
+     "note": "Plots the \"temp\" column as a line, x = row index, y = value."
+    },
+    {
+     "line": 4,
+     "code": "plt.title(\"Temperature\")",
+     "note": "Adds a title above the axes."
+    },
+    {
+     "line": 5,
+     "code": "plt.show()",
+     "note": "Renders the figure — the point at which the plot actually appears."
+    }
+   ]
+  },
+  {
+   "id": "w09-02",
+   "week": 9,
+   "difficulty": 2,
+   "title": "Scatter plot with axis labels",
+   "topic": "Matplotlib",
+   "prompt": "Scatter \"temp\" against \"sales\" from df, label the x axis \"Temp\" and display the figure.",
+   "hint": "plt.scatter(df[\"temp\"], df[\"sales\"]), plt.xlabel, plt.show().",
+   "code": "plt.scatter(df[\"temp\"], df[\"sales\"])\nplt.xlabel(\"Temp\")\nplt.show()",
+   "lines": 3,
+   "chars": 66,
+   "explain": "A scatter plot puts one numeric column on each axis so you can see the relationship between two variables — the visual step before fitting a regression. `plt.xlabel` names the horizontal axis; `plt.ylabel` is the usual companion.",
+   "gotcha": "Always label both axes and note units; an unlabelled scatter is unreadable a week later.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "plt.scatter(df[\"temp\"], df[\"sales\"])",
+     "note": "x = \"temp\", y = \"sales\" — each row becomes one dot."
+    },
+    {
+     "line": 2,
+     "code": "plt.xlabel(\"Temp\")",
+     "note": "Labels the horizontal axis so the chart is readable out of context."
+    },
+    {
+     "line": 3,
+     "code": "plt.show()",
+     "note": "Displays the plot."
+    }
+   ]
+  },
+  {
+   "id": "w09-03",
+   "week": 9,
+   "difficulty": 2,
+   "title": "Histogram of a column",
+   "topic": "Matplotlib",
+   "prompt": "Draw a histogram of the \"temp\" column of df using 20 bins, then show the figure.",
+   "hint": "plt.hist with the bins keyword.",
+   "code": "plt.hist(df[\"temp\"], bins=20)\nplt.show()",
+   "lines": 2,
+   "chars": 40,
+   "explain": "A histogram bins one numeric column and draws a bar per bin, revealing the distribution's shape (centre, spread, skew, gaps). `bins=20` controls the resolution: too few hides structure, too many turns the chart into noise.",
+   "gotcha": "Changing `bins` changes the apparent shape — try a couple of values before concluding anything.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "plt.hist(df[\"temp\"], bins=20)",
+     "note": "Splits \"temp\" into 20 equal-width bins and draws how many rows fall in each."
+    },
+    {
+     "line": 2,
+     "code": "plt.show()",
+     "note": "Shows the figure."
+    }
+   ]
+  },
+  {
+   "id": "w09-04",
+   "week": 9,
+   "difficulty": 3,
+   "title": "Seaborn scatter with hue",
+   "topic": "Seaborn",
+   "prompt": "Import seaborn as sns, draw a scatterplot of \"temp\" against \"sales\" from df coloured by \"city\", then show it.",
+   "hint": "sns.scatterplot(data=df, x=..., y=..., hue=...).",
+   "code": "import seaborn as sns\n\nsns.scatterplot(data=df, x=\"temp\", y=\"sales\", hue=\"city\")\nplt.show()",
+   "lines": 4,
+   "chars": 91,
+   "explain": "Seaborn plots straight from a DataFrame using column names, and `hue` adds a third dimension by colouring points per category. This makes it easy to see whether one group sits apart from the others.",
+   "gotcha": "With many categories `hue` becomes an unreadable rainbow — facet with `col=` or group instead.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "import seaborn as sns",
+     "note": "Imports Seaborn, which builds on Matplotlib and adds the data= interface."
+    },
+    {
+     "line": 3,
+     "code": "sns.scatterplot(data=df, x=\"temp\", y=\"sales\", hue=\"city\")",
+     "note": "x and y name columns of df; hue shatters the points by city with a legend."
+    },
+    {
+     "line": 4,
+     "code": "plt.show()",
+     "note": "show() is still Matplotlib's job — Seaborn draws onto the same canvas."
+    }
+   ]
+  },
+  {
+   "id": "w09-05",
+   "week": 9,
+   "difficulty": 2,
+   "title": "Compare distributions across groups",
+   "topic": "Seaborn",
+   "prompt": "Draw a boxplot of \"sales\" per \"city\" from df and show the figure.",
+   "hint": "sns.boxplot(data=df, x=\"city\", y=\"sales\").",
+   "code": "sns.boxplot(data=df, x=\"city\", y=\"sales\")\nplt.show()",
+   "lines": 2,
+   "chars": 52,
+   "explain": "A box plot compares a numeric distribution across categories: the box is the interquartile range, the line inside is the median, and the whiskers/points show spread and outliers. This is the fastest way to compare groups side by side.",
+   "gotcha": "Box plots hide sample size — a wide box can come from 3 rows or 3000, so count groups too.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "sns.boxplot(data=df, x=\"city\", y=\"sales\")",
+     "note": "One box per city, each summarising that city's sales distribution."
+    },
+    {
+     "line": 2,
+     "code": "plt.show()",
+     "note": "Renders the figure."
+    }
+   ]
+  },
+  {
+   "id": "w09-06",
+   "week": 9,
+   "difficulty": 2,
+   "title": "Correlation matrix",
+   "topic": "EDA",
+   "prompt": "Print the pairwise correlation matrix of df, considering only numeric columns.",
+   "hint": "df.corr(numeric_only=True).",
+   "code": "print(df.corr(numeric_only=True))",
+   "lines": 1,
+   "chars": 33,
+   "explain": "Computes pairwise Pearson correlation for all numeric columns, giving a value from -1 to +1 per pair. Use it to spot features that move together (multicollinearity) and to pick candidates for a scatter plot or a model.",
+   "gotcha": "Correlation only measures linear association — a strong curved relationship can show r ≈ 0.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "print(df.corr(numeric_only=True))",
+     "note": "numeric_only=True keeps text columns out; the output is a symmetric matrix with 1.0 on the diagonal."
+    }
+   ]
+  },
+  {
+   "id": "w09-07",
+   "week": 9,
+   "difficulty": 3,
+   "title": "Subplots and saving a figure",
+   "topic": "Matplotlib",
+   "prompt": "Create a figure and axes with a size of 8 by 5, draw a bar chart of \"sales\" per \"city\" on the axes, then save the figure as plot.png at 150 dpi.",
+   "hint": "fig, ax = plt.subplots(figsize=(8, 5)), ax.bar(...), fig.savefig(...).",
+   "code": "fig, ax = plt.subplots(figsize=(8, 5))\nax.bar(df[\"city\"], df[\"sales\"])\nfig.savefig(\"plot.png\", dpi=150)",
+   "lines": 3,
+   "chars": 103,
+   "explain": "Uses the object-oriented Matplotlib API: create a figure and an axes first, draw on the axes, then save the whole figure. This is required once you have more than one panel, and it lets you export a publication-quality PNG instead of only showing it.",
+   "gotcha": "savefig after show() gives a blank image, because show() clears the canvas.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "fig, ax = plt.subplots(figsize=(8, 5))",
+     "note": "fig is the whole canvas, ax is the single plotting area inside it; figsize is inches."
+    },
+    {
+     "line": 2,
+     "code": "ax.bar(df[\"city\"], df[\"sales\"])",
+     "note": "Draws a bar per category using the axes object rather than the global plt state."
+    },
+    {
+     "line": 3,
+     "code": "fig.savefig(\"plot.png\", dpi=150)",
+     "note": "Writes plot.png at 150 dpi — call this before show(), which clears the figure."
+    }
+   ]
+  },
+  {
+   "id": "w10-01",
+   "week": 10,
+   "difficulty": 3,
+   "title": "Split into train and test sets",
+   "topic": "Model validation",
+   "prompt": "Import train_test_split from sklearn.model_selection and split X and y with a 20 percent test size and random_state 42, unpacking into X_train, X_test, y_train, y_test.",
+   "hint": "Four names on the left-hand side in that exact order.",
+   "code": "from sklearn.model_selection import train_test_split\n\nX_train, X_test, y_train, y_test = train_test_split(\n    X, y, test_size=0.2, random_state=42\n)",
+   "lines": 5,
+   "chars": 149,
+   "explain": "Splits features (X) and target (y) into a training set and a held-out test set. `test_size=0.2` holds back 20% for honest evaluation and `random_state=42` makes the split reproducible. The order of the four returned objects is fixed, so the names must match that order.",
+   "gotcha": "Swapping the order silently gives you a model trained on y — check shapes if scores look absurd.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "from sklearn.model_selection import train_test_split",
+     "note": "Imports only the splitting helper from scikit-learn."
+    },
+    {
+     "line": 3,
+     "code": "X_train, X_test, y_train, y_test = train_test_split(",
+     "note": "Four outputs in a fixed order: X_train, X_test, y_train, y_test."
+    },
+    {
+     "line": 4,
+     "code": "    X, y, test_size=0.2, random_state=42",
+     "note": "20% held out for testing, seeded so every run splits identically."
+    },
+    {
+     "line": 5,
+     "code": ")",
+     "note": "Closes the call — the four names above now receive the split data."
+    }
+   ]
+  },
+  {
+   "id": "w10-02",
+   "week": 10,
+   "difficulty": 2,
+   "title": "Fit a linear regression",
+   "topic": "Linear regression",
+   "prompt": "Import LinearRegression, instantiate it into model and fit it on X_train and y_train.",
+   "hint": "model = LinearRegression() then model.fit(X_train, y_train).",
+   "code": "from sklearn.linear_model import LinearRegression\n\nmodel = LinearRegression()\nmodel.fit(X_train, y_train)",
+   "lines": 4,
+   "chars": 105,
+   "explain": "Instantiates and fits a linear regression. `LinearRegression()` creates an unfitted object; `.fit(X_train, y_train)` learns one coefficient per feature plus an intercept, minimising squared error. The object now holds the model and can predict.",
+   "gotcha": "fit() takes (features, target) in that order — passing y first raises a confusing shape error.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "from sklearn.linear_model import LinearRegression",
+     "note": "Imports the linear regression estimator."
+    },
+    {
+     "line": 3,
+     "code": "model = LinearRegression()",
+     "note": "Creates the estimator with default settings — still unfitted at this point."
+    },
+    {
+     "line": 4,
+     "code": "model.fit(X_train, y_train)",
+     "note": "Learns the coefficients from the training rows."
+    }
+   ]
+  },
+  {
+   "id": "w10-03",
+   "week": 10,
+   "difficulty": 1,
+   "title": "Predict on unseen data",
+   "topic": "Linear regression",
+   "prompt": "Generate predictions for X_test with the fitted model, store them in predictions and print the first five.",
+   "hint": "model.predict(X_test) then predictions[:5].",
+   "code": "predictions = model.predict(X_test)\nprint(predictions[:5])",
+   "lines": 2,
+   "chars": 58,
+   "explain": "Applies the fitted model to unseen rows. `predict` takes a feature matrix shaped like the training data and returns one prediction per row; slicing `[:5]` just keeps the output readable.",
+   "gotcha": "Passing a single row without the column structure (`X_test.iloc[0]`) triggers a feature-count error.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "predictions = model.predict(X_test)",
+     "note": "Runs the model on the held-out features and stores one number per row."
+    },
+    {
+     "line": 2,
+     "code": "print(predictions[:5])",
+     "note": "Shows the first five predictions."
+    }
+   ]
+  },
+  {
+   "id": "w10-04",
+   "week": 10,
+   "difficulty": 2,
+   "title": "Inspect learned coefficients",
+   "topic": "Linear regression",
+   "prompt": "Print the fitted model's coefficients and its intercept in a single print call.",
+   "hint": "model.coef_, model.intercept_.",
+   "code": "print(model.coef_, model.intercept_)",
+   "lines": 1,
+   "chars": 36,
+   "explain": "Inspects what the model learned. `coef_` holds one slope per feature — the change in the target per one-unit change in that feature, all else equal — and `intercept_` is the prediction when every feature is zero. These are the numbers you interpret in a report.",
+   "gotcha": "A trailing underscore means “learned during fit” — reading coef_ before fit() raises an error.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "print(model.coef_, model.intercept_)",
+     "note": "Prints the coefficient array followed by the intercept."
+    }
+   ]
+  },
+  {
+   "id": "w10-05",
+   "week": 10,
+   "difficulty": 3,
+   "title": "Evaluate with R squared",
+   "topic": "Model metrics",
+   "prompt": "Import r2_score and mean_squared_error from sklearn.metrics, then print the R squared score of predictions against y_test.",
+   "hint": "Only one of the two imported functions is needed for the print.",
+   "code": "from sklearn.metrics import mean_squared_error, r2_score\n\nprint(r2_score(y_test, predictions))",
+   "lines": 3,
+   "chars": 94,
+   "explain": "Scores the predictions with R²: the fraction of the target's variance the model explains. 1.0 is perfect, 0.0 is no better than always predicting the mean, and negative values mean the model is worse than that baseline. Both metrics are imported, but only R² is printed here.",
+   "gotcha": "Evaluating on X_train instead of X_test gives an optimistic score that hides overfitting.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "from sklearn.metrics import mean_squared_error, r2_score",
+     "note": "Imports two metrics; mean_squared_error is available but unused in this snippet."
+    },
+    {
+     "line": 3,
+     "code": "print(r2_score(y_test, predictions))",
+     "note": "Prints R², computed from the true test values and the predictions."
+    }
+   ]
+  },
+  {
+   "id": "w10-06",
+   "week": 10,
+   "difficulty": 2,
+   "title": "Build the feature matrix and target",
+   "topic": "Feature engineering",
+   "prompt": "Create the feature matrix X from the columns \"temp\" and \"humidity\" of df, and the target vector y from the \"sales\" column.",
+   "hint": "Double brackets keep the DataFrame shape for X.",
+   "code": "X = df[[\"temp\", \"humidity\"]]\ny = df[\"sales\"]",
+   "lines": 2,
+   "chars": 44,
+   "explain": "Defines the modelling inputs. `X` is the feature matrix — note the double brackets, which keep it two-dimensional — and `y` is the one-dimensional target vector. Every scikit-learn estimator expects exactly this (n_samples, n_features) shape.",
+   "gotcha": "`df[\"temp\", \"humidity\"]` is wrong syntax for columns — you need `df[[\"temp\", \"humidity\"]]`.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "X = df[[\"temp\", \"humidity\"]]",
+     "note": "Double brackets select two columns as a DataFrame; single brackets would return a Series and break fit()."
+    },
+    {
+     "line": 2,
+     "code": "y = df[\"sales\"]",
+     "note": "The target column as a Series of numbers to predict."
+    }
+   ]
+  },
+  {
+   "id": "w10-07",
+   "week": 10,
+   "difficulty": 3,
+   "title": "Scale features before fitting",
+   "topic": "Preprocessing",
+   "prompt": "Import StandardScaler, fit it on X, transform X into X_scaled and print the mean of X_scaled.",
+   "hint": "scaler.fit_transform(X), then np.mean(X_scaled).",
+   "code": "from sklearn.preprocessing import StandardScaler\n\nscaler = StandardScaler()\nX_scaled = scaler.fit_transform(X)\nprint(np.mean(X_scaled))",
+   "lines": 5,
+   "chars": 135,
+   "explain": "Standardises features to mean 0 and standard deviation 1 so no column dominates because of its scale. `fit_transform` learns the mean/σ from X and applies them in one step; the printed mean of the output should be effectively 0, which is a quick correctness check.",
+   "gotcha": "Fit on training data only, then `transform` the test set — fitting on both leaks information.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "from sklearn.preprocessing import StandardScaler",
+     "note": "Imports the standard scaler."
+    },
+    {
+     "line": 3,
+     "code": "scaler = StandardScaler()",
+     "note": "Creates the scaler; nothing is learned yet."
+    },
+    {
+     "line": 4,
+     "code": "X_scaled = scaler.fit_transform(X)",
+     "note": "Computes mean and σ from X, then returns the standardised array."
+    },
+    {
+     "line": 5,
+     "code": "print(np.mean(X_scaled))",
+     "note": "Prints a value at (or very near) zero, confirming the transformation worked."
+    }
+   ]
+  },
+  {
+   "id": "w11-01",
+   "week": 11,
+   "difficulty": 3,
+   "title": "Train a decision tree classifier",
+   "topic": "Decision trees",
+   "prompt": "Import DecisionTreeClassifier, build a tree with maximum depth 3 and random_state 42, then fit it on X_train and y_train.",
+   "hint": "DecisionTreeClassifier(max_depth=3, random_state=42).",
+   "code": "from sklearn.tree import DecisionTreeClassifier\n\nmodel = DecisionTreeClassifier(max_depth=3, random_state=42)\nmodel.fit(X_train, y_train)",
+   "lines": 4,
+   "chars": 137,
+   "explain": "Builds a classification tree. `max_depth=3` caps how many splits deep the tree may go, which is the main guard against overfitting, and `random_state=42` makes the tie-breaking reproducible. `fit` then grows the tree by choosing the most informative split at each node.",
+   "gotcha": "With no max_depth a tree will memorise the training set and score near-perfectly on train, badly on test.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "from sklearn.tree import DecisionTreeClassifier",
+     "note": "Imports the classification tree estimator."
+    },
+    {
+     "line": 3,
+     "code": "model = DecisionTreeClassifier(max_depth=3, random_state=42)",
+     "note": "Caps depth at 3 levels and fixes the random seed."
+    },
+    {
+     "line": 4,
+     "code": "model.fit(X_train, y_train)",
+     "note": "Grows the tree on the training rows."
+    }
+   ]
+  },
+  {
+   "id": "w11-02",
+   "week": 11,
+   "difficulty": 3,
+   "title": "Score a classifier",
+   "topic": "Model metrics",
+   "prompt": "Import accuracy_score and confusion_matrix, then print the accuracy of the model on X_test compared with y_test.",
+   "hint": "accuracy_score(y_test, model.predict(X_test)).",
+   "code": "from sklearn.metrics import accuracy_score, confusion_matrix\n\nprint(accuracy_score(y_test, model.predict(X_test)))",
+   "lines": 3,
+   "chars": 114,
+   "explain": "Measures classification performance. `accuracy_score` is the share of correct labels, computed here on the test set with fresh predictions. The confusion matrix is imported for the follow-up question: which classes get mixed up?",
+   "gotcha": "Accuracy is misleading on imbalanced data — a 95%-negative dataset scores 0.95 by always saying no.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "from sklearn.metrics import accuracy_score, confusion_matrix",
+     "note": "Imports accuracy and the confusion matrix; only accuracy is used here."
+    },
+    {
+     "line": 3,
+     "code": "print(accuracy_score(y_test, model.predict(X_test)))",
+     "note": "Predicts on X_test and compares to y_test, printing the fraction correct."
+    }
+   ]
+  },
+  {
+   "id": "w11-03",
+   "week": 11,
+   "difficulty": 3,
+   "title": "Visualise the tree structure",
+   "topic": "Decision trees",
+   "prompt": "Import plot_tree and draw the fitted model with the feature names taken from the columns of X and filled nodes, then show the figure.",
+   "hint": "feature_names=list(X.columns), filled=True.",
+   "code": "from sklearn.tree import plot_tree\n\nplot_tree(model, feature_names=list(X.columns), filled=True)\nplt.show()",
+   "lines": 4,
+   "chars": 107,
+   "explain": "Renders the learned tree as a diagram. `feature_names` labels each split with the column actually used and `filled=True` colours nodes by the majority class, so you can read the decision rules straight off the chart.",
+   "gotcha": "On a deep tree the figure is unreadable — cap max_depth or pass `max_depth=3` to plot_tree.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "from sklearn.tree import plot_tree",
+     "note": "Imports the plotting helper for trees."
+    },
+    {
+     "line": 3,
+     "code": "plot_tree(model, feature_names=list(X.columns), filled=True)",
+     "note": "Draws the tree: each split shows the feature, threshold and impurity; feature_names come from X's columns."
+    },
+    {
+     "line": 4,
+     "code": "plt.show()",
+     "note": "Displays the drawing."
+    }
+   ]
+  },
+  {
+   "id": "w11-04",
+   "week": 11,
+   "difficulty": 2,
+   "title": "Decision tree regressor",
+   "topic": "Decision trees",
+   "prompt": "Import DecisionTreeRegressor, build tree with maximum depth 4, fit it on X_train and y_train, then print the first three predictions for X_test.",
+   "hint": "tree.predict(X_test)[:3].",
+   "code": "from sklearn.tree import DecisionTreeRegressor\n\ntree = DecisionTreeRegressor(max_depth=4)\ntree.fit(X_train, y_train)\nprint(tree.predict(X_test)[:3])",
+   "lines": 5,
+   "chars": 148,
+   "explain": "The regression variant predicts a number instead of a class. Trees split until each leaf is as pure as possible; `max_depth=4` keeps it shallow, and the printed predictions are the mean of the training targets that landed in each leaf.",
+   "gotcha": "Use the regressor for continuous targets and the classifier for labels — the wrong one fails at fit().",
+   "notes": [
+    {
+     "line": 1,
+     "code": "from sklearn.tree import DecisionTreeRegressor",
+     "note": "Imports the regression tree estimator."
+    },
+    {
+     "line": 3,
+     "code": "tree = DecisionTreeRegressor(max_depth=4)",
+     "note": "Creates a tree limited to four levels of splits."
+    },
+    {
+     "line": 4,
+     "code": "tree.fit(X_train, y_train)",
+     "note": "Fits it to the training data."
+    },
+    {
+     "line": 5,
+     "code": "print(tree.predict(X_test)[:3])",
+     "note": "Predicts on the test set and prints just the first three numbers."
+    }
+   ]
+  },
+  {
+   "id": "w11-05",
+   "week": 11,
+   "difficulty": 3,
+   "title": "Rank feature importances",
+   "topic": "Feature importance",
+   "prompt": "Build a pandas Series from the model's feature_importances_ indexed by the columns of X, then print it sorted in ascending order.",
+   "hint": "pd.Series(...).sort_values().",
+   "code": "import pandas as pd\n\nprint(\n    pd.Series(model.feature_importances_, index=X.columns).sort_values()\n)",
+   "lines": 5,
+   "chars": 102,
+   "explain": "Turns the tree's `feature_importances_` array into a readable, sorted Series. Each value is the share of the model's impurity reduction attributable to that feature, and sorting ascending puts the weakest feature first so the strongest ones stand out at the end.",
+   "gotcha": "Importances sum to 1 but are not causal — and correlated features split the credit between them.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "import pandas as pd",
+     "note": "pandas is needed to build the labelled Series."
+    },
+    {
+     "line": 3,
+     "code": "print(",
+     "note": "Wraps the multi-line expression."
+    },
+    {
+     "line": 4,
+     "code": "    pd.Series(model.feature_importances_, index=X.columns).sort_values()",
+     "note": "Pairs each importance with its column name from X, then sorts from least to most important."
+    },
+    {
+     "line": 5,
+     "code": ")",
+     "note": "Closes the print call."
+    }
+   ]
+  },
+  {
+   "id": "w11-06",
+   "week": 11,
+   "difficulty": 3,
+   "title": "Cross-validate a model",
+   "topic": "Model validation",
+   "prompt": "Import cross_val_score, compute five-fold cross-validated scores for model on X and y, store them in scores and print the mean score.",
+   "hint": "cv=5, then scores.mean().",
+   "code": "from sklearn.model_selection import cross_val_score\n\nscores = cross_val_score(model, X, y, cv=5)\nprint(scores.mean())",
+   "lines": 4,
+   "chars": 117,
+   "explain": "Estimates performance more reliably by training and testing k times. `cv=5` splits the data into five folds, trains on four and tests on the fifth, rotating each time, and returns five scores whose mean is a much steadier estimate than one split.",
+   "gotcha": "Pass the model and the full data — cross_val_score does its own splitting, so do not hand it X_train.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "from sklearn.model_selection import cross_val_score",
+     "note": "Imports the cross-validation scorer."
+    },
+    {
+     "line": 3,
+     "code": "scores = cross_val_score(model, X, y, cv=5)",
+     "note": "Runs five-fold cross-validation on the full X and y — no manual train/test split needed."
+    },
+    {
+     "line": 4,
+     "code": "print(scores.mean())",
+     "note": "Prints the average of the five fold scores."
+    }
+   ]
+  },
+  {
+   "id": "w12-01",
+   "week": 12,
+   "difficulty": 3,
+   "title": "Define a feed-forward network",
+   "topic": "Neural networks",
+   "prompt": "Import keras and layers from tensorflow, then build a Sequential model with a 16-unit relu Dense layer taking input_shape (4,) followed by a single-unit output layer.",
+   "hint": "keras.Sequential([...]) with two layers.Dense entries.",
+   "code": "from tensorflow import keras\nfrom tensorflow.keras import layers\n\nmodel = keras.Sequential([\n    layers.Dense(16, activation=\"relu\", input_shape=(4,)),\n    layers.Dense(1),\n])",
+   "lines": 7,
+   "chars": 175,
+   "explain": "Defines a small feed-forward network. `Sequential` stacks layers in order; the first `Dense` layer has 16 neurons with a ReLU activation and must declare the input shape (4 features); the final single-unit layer is the regression output.",
+   "gotcha": "Drop input_shape and the model is not built — you cannot call summary() or fit() until it knows the inputs.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "from tensorflow import keras",
+     "note": "Imports the Keras high-level API from TensorFlow."
+    },
+    {
+     "line": 2,
+     "code": "from tensorflow.keras import layers",
+     "note": "Imports the layer classes separately."
+    },
+    {
+     "line": 4,
+     "code": "model = keras.Sequential([",
+     "note": "Sequential means data flows through the listed layers in order."
+    },
+    {
+     "line": 5,
+     "code": "    layers.Dense(16, activation=\"relu\", input_shape=(4,)),",
+     "note": "Hidden layer: 16 neurons, relu activation, and input_shape tells Keras the 4 features per row."
+    },
+    {
+     "line": 6,
+     "code": "    layers.Dense(1),",
+     "note": "Output layer: one neuron, no activation, because we are predicting a single number."
+    },
+    {
+     "line": 7,
+     "code": "])",
+     "note": "Closes the list of layers."
+    }
+   ]
+  },
+  {
+   "id": "w12-02",
+   "week": 12,
+   "difficulty": 2,
+   "title": "Compile the network",
+   "topic": "Neural networks",
+   "prompt": "Compile the model with the adam optimiser, mean squared error loss and mean absolute error as the tracked metric.",
+   "hint": "optimizer=\"adam\", loss=\"mse\", metrics=[\"mae\"].",
+   "code": "model.compile(optimizer=\"adam\", loss=\"mse\", metrics=[\"mae\"])",
+   "lines": 1,
+   "chars": 60,
+   "explain": "Compiles the network, which fixes how it will learn. `optimizer=\"adam\"` is the update rule, `loss=\"mse\"` is what it minimises (appropriate for regression), and `metrics=[\"mae\"]` is only reported for humans — it does not affect training.",
+   "gotcha": "MSE loss with a classification problem will train but produce meaningless probabilities — match loss to task.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "model.compile(optimizer=\"adam\", loss=\"mse\", metrics=[\"mae\"])",
+     "note": "Sets optimiser, loss and reporting metric; must run before fit()."
+    }
+   ]
+  },
+  {
+   "id": "w12-03",
+   "week": 12,
+   "difficulty": 3,
+   "title": "Train the network",
+   "topic": "Neural networks",
+   "prompt": "Train the model for 20 epochs with a batch size of 32 and 20 percent of the data held out for validation, saving the history object.",
+   "hint": "model.fit(..., epochs=20, batch_size=32, validation_split=0.2).",
+   "code": "history = model.fit(\n    X_train, y_train,\n    epochs=20,\n    batch_size=32,\n    validation_split=0.2,\n)",
+   "lines": 6,
+   "chars": 104,
+   "explain": "Trains the network. `epochs=20` means 20 passes over the data, `batch_size=32` means weights update every 32 rows, and `validation_split=0.2` holds back 20% of the training rows to report validation loss each epoch. The returned `history` records those curves.",
+   "gotcha": "validation_split carves from the data you pass in — it does not replace your separate test set.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "history = model.fit(",
+     "note": "fit returns a History object, which stores the per-epoch loss/metric curves."
+    },
+    {
+     "line": 2,
+     "code": "    X_train, y_train,",
+     "note": "Inputs first: the training features and targets."
+    },
+    {
+     "line": 3,
+     "code": "    epochs=20,",
+     "note": "Twenty full passes over the training data."
+    },
+    {
+     "line": 4,
+     "code": "    batch_size=32,",
+     "note": "Update the weights after every 32 samples."
+    },
+    {
+     "line": 5,
+     "code": "    validation_split=0.2,",
+     "note": "Report validation metrics on the last 20% of X_train, so overfitting becomes visible."
+    },
+    {
+     "line": 6,
+     "code": ")",
+     "note": "Closes the fit call; training starts when the statement executes."
+    }
+   ]
+  },
+  {
+   "id": "w12-04",
+   "week": 12,
+   "difficulty": 2,
+   "title": "Evaluate and predict",
+   "topic": "Neural networks",
+   "prompt": "Evaluate the trained model on X_test and y_test, unpacking into loss and mae, then print the model's predictions for the first three test rows.",
+   "hint": "model.evaluate(...) then model.predict(X_test[:3]).",
+   "code": "loss, mae = model.evaluate(X_test, y_test)\nprint(model.predict(X_test[:3]))",
+   "lines": 2,
+   "chars": 75,
+   "explain": "Scores the trained network and then uses it. `evaluate` returns one number per compiled metric — here loss and MAE, unpacked in that order — and `predict` returns raw numbers, sliced to three rows for readability.",
+   "gotcha": "evaluate returns a list, so unpacking into the wrong number of names raises ValueError.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "loss, mae = model.evaluate(X_test, y_test)",
+     "note": "Returns one value per compiled metric, in order: loss first, then mae."
+    },
+    {
+     "line": 2,
+     "code": "print(model.predict(X_test[:3]))",
+     "note": "Predicts for the first three test rows."
+    }
+   ]
+  },
+  {
+   "id": "w12-05",
+   "week": 12,
+   "difficulty": 3,
+   "title": "Multi-class output layer",
+   "topic": "Neural networks",
+   "prompt": "Add a dense output layer with 3 units and the softmax activation to the existing Sequential model, then compile it with the sparse categorical crossentropy loss.",
+   "hint": "model.add(layers.Dense(...)) then compile with loss=\"sparse_categorical_crossentropy\".",
+   "code": "model.add(layers.Dense(3, activation=\"softmax\"))\nmodel.compile(optimizer=\"adam\", loss=\"sparse_categorical_crossentropy\")",
+   "lines": 2,
+   "chars": 120,
+   "explain": "Converts a regression network into a three-class classifier. The final layer has one unit per class with `softmax` (turning scores into probabilities that sum to 1) and the loss becomes sparse categorical cross-entropy, which expects integer class labels.",
+   "gotcha": "Keep the old single-unit output layer and you get two outputs — rebuild the model, do not just add.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "model.add(layers.Dense(3, activation=\"softmax\"))",
+     "note": "Adds a new output layer: 3 units, softmax turns them into probabilities."
+    },
+    {
+     "line": 2,
+     "code": "model.compile(optimizer=\"adam\", loss=\"sparse_categorical_crossentropy\")",
+     "note": "Recompiles with a classification loss; 'sparse' means labels are integers 0,1,2 rather than one-hot vectors."
+    }
+   ]
+  },
+  {
+   "id": "w12-06",
+   "week": 12,
+   "difficulty": 1,
+   "title": "Inspect the architecture",
+   "topic": "Neural networks",
+   "prompt": "Print a summary of the model's layers and parameter counts, then print the number of trainable weights.",
+   "hint": "model.summary() and model.count_params().",
+   "code": "model.summary()\nprint(model.count_params())",
+   "lines": 2,
+   "chars": 43,
+   "explain": "Prints the architecture and the size of the model. `summary()` lists every layer with its output shape and parameter count; `count_params()` gives the total, which is what tells you whether the model is unreasonably large for the data.",
+   "gotcha": "Params = (inputs × units) + units per Dense layer — a huge count relative to rows means overfitting risk.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "model.summary()",
+     "note": "Table of layers, output shapes and parameter counts."
+    },
+    {
+     "line": 2,
+     "code": "print(model.count_params())",
+     "note": "Total learnable weights as a single number."
+    }
+   ]
+  },
+  {
+   "id": "w13-01",
+   "week": 13,
+   "difficulty": 3,
+   "title": "Capstone: end-to-end pipeline",
+   "topic": "Capstone",
+   "prompt": "Load \"data.csv\", drop missing values, split the features \"temp\" and \"humidity\" against the target \"sales\", fit a linear regression with train_test_split random_state 42 and print the test R squared.",
+   "hint": "Load, clean, split, fit, score — five logical steps.",
+   "code": "import pandas as pd\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.linear_model import LinearRegression\n\ndf = pd.read_csv(\"data.csv\").dropna()\nX = df[[\"temp\", \"humidity\"]]\ny = df[\"sales\"]\nX_train, X_test, y_train, y_test = train_test_split(\n    X, y, test_size=0.2, random_state=42\n)\nmodel = LinearRegression().fit(X_train, y_train)\nprint(model.score(X_test, y_test))",
+   "lines": 12,
+   "chars": 386,
+   "explain": "A whole supervised-learning pipeline end to end: import, load and clean, define features and target, split reproducibly, fit, and score on the held-out data. This is the shape of every analysis you will be asked to reproduce in the final exam.",
+   "gotcha": "Reporting `model.score(X_train, y_train)` here would flatter the model; always score X_test.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "import pandas as pd",
+     "note": "Data handling library."
+    },
+    {
+     "line": 2,
+     "code": "from sklearn.model_selection import train_test_split",
+     "note": "Splitting helper."
+    },
+    {
+     "line": 3,
+     "code": "from sklearn.linear_model import LinearRegression",
+     "note": "The estimator."
+    },
+    {
+     "line": 5,
+     "code": "df = pd.read_csv(\"data.csv\").dropna()",
+     "note": "Load and drop incomplete rows in one chained expression."
+    },
+    {
+     "line": 6,
+     "code": "X = df[[\"temp\", \"humidity\"]]",
+     "note": "Two-column feature matrix (double brackets keep it 2-D)."
+    },
+    {
+     "line": 7,
+     "code": "y = df[\"sales\"]",
+     "note": "Single target column."
+    },
+    {
+     "line": 8,
+     "code": "X_train, X_test, y_train, y_test = train_test_split(",
+     "note": "Split reproducibly — 80% train, 20% test."
+    },
+    {
+     "line": 9,
+     "code": "    X, y, test_size=0.2, random_state=42",
+     "note": "test_size 0.2 and a fixed seed."
+    },
+    {
+     "line": 10,
+     "code": ")",
+     "note": "Closes the split call."
+    },
+    {
+     "line": 11,
+     "code": "model = LinearRegression().fit(X_train, y_train)",
+     "note": "Instantiate and fit in one line; fit() returns the model."
+    },
+    {
+     "line": 12,
+     "code": "print(model.score(X_test, y_test))",
+     "note": "R² on the held-out test set — the honest score."
+    }
+   ]
+  },
+  {
+   "id": "w13-02",
+   "week": 13,
+   "difficulty": 3,
+   "title": "Capstone: API to clean frame",
+   "topic": "Capstone",
+   "prompt": "Fetch https://api.example.com/sales into response, convert the JSON body to a DataFrame, rename the column \"Temp\" to \"temp\" and print the missing value counts.",
+   "hint": "requests.get, pd.DataFrame(response.json()), .rename(columns=...), .isna().sum().",
+   "code": "import requests\nimport pandas as pd\n\nresponse = requests.get(\"https://api.example.com/sales\")\ndf = pd.DataFrame(response.json())\ndf = df.rename(columns={\"Temp\": \"temp\"})\nprint(df.isna().sum())",
+   "lines": 7,
+   "chars": 192,
+   "explain": "An API-to-DataFrame cleaning pipeline. The JSON body becomes a table, the inconsistently capitalised column is renamed to a predictable snake_case name, and missing values are counted before any analysis.",
+   "gotcha": "Renaming with the wrong case does nothing silently — check `df.columns` afterwards.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "import requests",
+     "note": "HTTP client."
+    },
+    {
+     "line": 2,
+     "code": "import pandas as pd",
+     "note": "pandas for the table."
+    },
+    {
+     "line": 4,
+     "code": "response = requests.get(\"https://api.example.com/sales\")",
+     "note": "Fetch the endpoint."
+    },
+    {
+     "line": 5,
+     "code": "df = pd.DataFrame(response.json())",
+     "note": "Decode the JSON body straight into a DataFrame."
+    },
+    {
+     "line": 6,
+     "code": "df = df.rename(columns={\"Temp\": \"temp\"})",
+     "note": "Rename the badly cased \"Temp\" column to \"temp\" so later code is consistent."
+    },
+    {
+     "line": 7,
+     "code": "print(df.isna().sum())",
+     "note": "Report missing counts per column before deciding how to handle them."
+    }
+   ]
+  },
+  {
+   "id": "w13-03",
+   "week": 13,
+   "difficulty": 2,
+   "title": "Capstone: quick EDA report",
+   "topic": "Capstone",
+   "prompt": "For each column in the numeric columns of df, print the column name together with its mean, using a loop over df.select_dtypes.",
+   "hint": "Loop over df.select_dtypes(include=\"number\").columns.",
+   "code": "for col in df.select_dtypes(include=\"number\").columns:\n    print(col, df[col].mean())",
+   "lines": 2,
+   "chars": 85,
+   "explain": "A compact numeric profile. `select_dtypes(include=\"number\")` filters to numeric columns so text columns cannot raise errors, and the loop prints each column next to its mean — enough to spot scale differences and suspicious values quickly.",
+   "gotcha": "Means ignore NaN, so a column that is mostly missing still prints a confident-looking average.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "for col in df.select_dtypes(include=\"number\").columns:",
+     "note": "Loops only over numeric columns — \"object\" dtype columns are skipped."
+    },
+    {
+     "line": 2,
+     "code": "    print(col, df[col].mean())",
+     "note": "Prints the column name and its mean on one line."
+    }
+   ]
+  },
+  {
+   "id": "w13-04",
+   "week": 13,
+   "difficulty": 3,
+   "title": "Capstone: persist a trained model",
+   "topic": "Capstone",
+   "prompt": "Import joblib, save the fitted model to \"model.joblib\", then load it back into loaded_model.",
+   "hint": "joblib.dump(model, ...) then joblib.load(...).",
+   "code": "import joblib\n\njoblib.dump(model, \"model.joblib\")\nloaded_model = joblib.load(\"model.joblib\")",
+   "lines": 4,
+   "chars": 92,
+   "explain": "Persists a trained model so you do not retrain for every prediction. `joblib.dump` serialises the fitted object to disk and `joblib.load` restores it, coefficients and all, ready for `.predict`.",
+   "gotcha": "A model file is tied to the library versions that created it — unpickling under another sklearn version may fail.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "import joblib",
+     "note": "joblib is the recommended serialiser for scikit-learn models."
+    },
+    {
+     "line": 3,
+     "code": "joblib.dump(model, \"model.joblib\")",
+     "note": "Writes the fitted model to a single binary file."
+    },
+    {
+     "line": 4,
+     "code": "loaded_model = joblib.load(\"model.joblib\")",
+     "note": "Reads it back into a new variable, identical in behaviour to the original."
+    }
+   ]
+  },
+  {
+   "id": "w13-05",
+   "week": 13,
+   "difficulty": 3,
+   "title": "Capstone: report a group summary",
+   "topic": "Capstone",
+   "prompt": "Group df by \"city\", aggregate the mean of \"sales\" and the count of \"temp\", then reset the index so the result has default integer labels.",
+   "hint": ".agg({...}).reset_index().",
+   "code": "summary = (\n    df.groupby(\"city\")\n    .agg({\"sales\": \"mean\", \"temp\": \"count\"})\n    .reset_index()\n)",
+   "lines": 5,
+   "chars": 100,
+   "explain": "Produces a tidy summary table. `groupby` forms the groups, `.agg` computes a different statistic per column, and `.reset_index()` promotes the group keys out of the index into ordinary columns so the frame is flat and export-ready. The outer parentheses let one expression span several lines.",
+   "gotcha": "Without reset_index the city names stay in the index and vanish from a CSV export or a plot's x axis.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "summary = (",
+     "note": "Opening parenthesis makes the multi-line expression valid Python."
+    },
+    {
+     "line": 2,
+     "code": "    df.groupby(\"city\")",
+     "note": "Group rows by city."
+    },
+    {
+     "line": 3,
+     "code": "    .agg({\"sales\": \"mean\", \"temp\": \"count\"})",
+     "note": "Aggregate: average sales, count non-missing temp per city."
+    },
+    {
+     "line": 4,
+     "code": "    .reset_index()",
+     "note": "Moves city from the index into a normal column."
+    },
+    {
+     "line": 5,
+     "code": ")",
+     "note": "Closes the expression and assigns the flat frame to summary."
+    }
+   ]
+  },
+  {
+   "id": "w14-01",
+   "week": 14,
+   "difficulty": 3,
+   "title": "Final: reusable training function",
+   "topic": "Final drills",
+   "prompt": "Define a function train_model(X, y) that splits with test_size 0.2 and random_state 42, fits a LinearRegression and returns the r2_score on the test split.",
+   "hint": "Define, split into four variables, fit with LinearRegression(), return r2_score(...).",
+   "code": "def train_model(X, y):\n    X_train, X_test, y_train, y_test = train_test_split(\n        X, y, test_size=0.2, random_state=42\n    )\n    model = LinearRegression()\n    model.fit(X_train, y_train)\n    return r2_score(y_test, model.predict(X_test))",
+   "lines": 7,
+   "chars": 244,
+   "explain": "Packages the standard training workflow into a reusable function: split, fit, score, return. Every value it needs arrives as a parameter and nothing is hard-coded, so the same function works for any feature matrix that shares the column layout.",
+   "gotcha": "Rebuilding the model inside the function means you cannot inspect it afterwards — return it too if needed.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "def train_model(X, y):",
+     "note": "Defines the function and its two inputs: features and target."
+    },
+    {
+     "line": 2,
+     "code": "    X_train, X_test, y_train, y_test = train_test_split(",
+     "note": "Splits reproducibly inside the function so callers cannot skew the evaluation."
+    },
+    {
+     "line": 3,
+     "code": "        X, y, test_size=0.2, random_state=42",
+     "note": "test_size and random_state keep every call identical."
+    },
+    {
+     "line": 4,
+     "code": "    )",
+     "note": "Closes the split call."
+    },
+    {
+     "line": 5,
+     "code": "    model = LinearRegression()",
+     "note": "Creates an unfitted estimator."
+    },
+    {
+     "line": 6,
+     "code": "    model.fit(X_train, y_train)",
+     "note": "Learns the coefficients."
+    },
+    {
+     "line": 7,
+     "code": "    return r2_score(y_test, model.predict(X_test))",
+     "note": "Predicts on the test split and returns R² straight to the caller."
+    }
+   ]
+  },
+  {
+   "id": "w14-02",
+   "week": 14,
+   "difficulty": 3,
+   "title": "Final: compare two models",
+   "topic": "Final drills",
+   "prompt": "Build a dictionary results mapping the names \"tree\" and \"linear\" to the five-fold cross-validation mean scores of the already-fitted model objects tree_model and linear_model.",
+   "hint": "Two cross_val_score calls with cv=5 and .mean().",
+   "code": "results = {\n    \"tree\": cross_val_score(tree_model, X, y, cv=5).mean(),\n    \"linear\": cross_val_score(linear_model, X, y, cv=5).mean(),\n}",
+   "lines": 4,
+   "chars": 137,
+   "explain": "Compares two candidate models on identical folds. Each entry runs `cross_val_score` with `cv=5` on the same X and y and stores the mean, making the dict a fair side-by-side scoreboard for model selection.",
+   "gotcha": "Comparing scores from different folds or different data makes the comparison meaningless.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "results = {",
+     "note": "One dict, one key per candidate model."
+    },
+    {
+     "line": 2,
+     "code": "    \"tree\": cross_val_score(tree_model, X, y, cv=5).mean(),",
+     "note": "Five-fold CV mean for the tree model."
+    },
+    {
+     "line": 3,
+     "code": "    \"linear\": cross_val_score(linear_model, X, y, cv=5).mean(),",
+     "note": "Same folds and data for the linear model — the only thing that changes is the estimator."
+    },
+    {
+     "line": 4,
+     "code": "}",
+     "note": "Closes the dict."
+    }
+   ]
+  },
+  {
+   "id": "w14-03",
+   "week": 14,
+   "difficulty": 3,
+   "title": "Final: two-panel visual report",
+   "topic": "Final drills",
+   "prompt": "Create a figure with 1 row and 2 columns of axes sized 12 by 4, draw a histogram of \"sales\" in the first panel and a scatter of \"temp\" against \"sales\" in the second, then show the figure.",
+   "hint": "fig, axes = plt.subplots(1, 2, figsize=(12, 4)); use axes[0] and axes[1].",
+   "code": "fig, axes = plt.subplots(1, 2, figsize=(12, 4))\naxes[0].hist(df[\"sales\"], bins=20)\naxes[1].scatter(df[\"temp\"], df[\"sales\"])\nplt.show()",
+   "lines": 4,
+   "chars": 134,
+   "explain": "Builds a two-panel figure for a report. `plt.subplots(1, 2)` returns the figure plus an array of axes; you then draw on each axes object individually, which is the correct way to combine charts.",
+   "gotcha": "Calling `plt.hist` then `plt.scatter` without axes draws both onto the same panel and mixes them.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "fig, axes = plt.subplots(1, 2, figsize=(12, 4))",
+     "note": "One row, two columns of axes, 12 by 4 inches; returns fig and the axes array."
+    },
+    {
+     "line": 2,
+     "code": "axes[0].hist(df[\"sales\"], bins=20)",
+     "note": "Left panel: distribution of sales."
+    },
+    {
+     "line": 3,
+     "code": "axes[1].scatter(df[\"temp\"], df[\"sales\"])",
+     "note": "Right panel: relationship between temp and sales."
+    },
+    {
+     "line": 4,
+     "code": "plt.show()",
+     "note": "Renders both panels at once."
+    }
+   ]
+  },
+  {
+   "id": "w14-04",
+   "week": 14,
+   "difficulty": 2,
+   "title": "Final: score new observations",
+   "topic": "Final drills",
+   "prompt": "Given the list new_rows of dictionaries with keys \"temp\" and \"humidity\", convert it to a DataFrame called new_X and print the model predictions.",
+   "hint": "pd.DataFrame(new_rows) then model.predict(new_X).",
+   "code": "new_X = pd.DataFrame(new_rows)\nprint(model.predict(new_X))",
+   "lines": 2,
+   "chars": 58,
+   "explain": "Scores brand-new observations. A list of dicts is converted into a DataFrame whose keys become columns — they must match the training feature names and order — and the fitted model returns one prediction per row.",
+   "gotcha": "Extra or missing keys cause a feature-name mismatch error at predict time.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "new_X = pd.DataFrame(new_rows)",
+     "note": "Converts the new records to a DataFrame; keys \"temp\" and \"humidity\" must match the training columns."
+    },
+    {
+     "line": 2,
+     "code": "print(model.predict(new_X))",
+     "note": "One predicted value per new row."
+    }
+   ]
+  },
+  {
+   "id": "w14-05",
+   "week": 14,
+   "difficulty": 3,
+   "title": "Final: reproducible run",
+   "topic": "Final drills",
+   "prompt": "Import numpy, pandas and matplotlib, then set the global random seed to 42 with NumPy and make the plots render inline with the matplotlib notebook magic.",
+   "hint": "np.random.seed(42) and the %matplotlib inline magic comment.",
+   "code": "import numpy as np\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\nnp.random.seed(42)\n%matplotlib inline",
+   "lines": 6,
+   "chars": 109,
+   "explain": "The reproducibility header every notebook should start with: the three standard imports, a fixed random seed so splits and initialisations repeat, and the inline magic so figures render inside the notebook.",
+   "gotcha": "The seed only fixes NumPy; also pass random_state= to scikit-learn estimators for full reproducibility.",
+   "notes": [
+    {
+     "line": 1,
+     "code": "import numpy as np",
+     "note": "NumPy for arrays and maths."
+    },
+    {
+     "line": 2,
+     "code": "import pandas as pd",
+     "note": "pandas for tabular data."
+    },
+    {
+     "line": 3,
+     "code": "import matplotlib.pyplot as plt",
+     "note": "Matplotlib's pyplot for charts."
+    },
+    {
+     "line": 5,
+     "code": "np.random.seed(42)",
+     "note": "Pins NumPy's global random state so random operations are repeatable."
+    },
+    {
+     "line": 6,
+     "code": "%matplotlib inline",
+     "note": "%matplotlib inline is a notebook magic, not Python — it renders figures in the output cell."
+    }
+   ]
+  }
+ ],
+ "total_snippets": 96,
+ "generated_by": "backend/export_curriculum.py"
+}

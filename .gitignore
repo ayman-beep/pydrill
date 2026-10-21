@@ -41,3 +41,9 @@ pydrill-progress.json
 # ssh known_hosts from the sandbox
 .ssh/
 *.zip
+
+# static build output
+frontend/dist/
+
+# netlify deploy artefact
+pydrill-netlify.zip
