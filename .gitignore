@@ -1,0 +1,32 @@
+# ---- Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Node / Vite
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+yarn-error.log*
+
+# ---- built frontend bundle served by FastAPI (rebuilt by ./run.sh or npm run build)
+backend/static_app/
+
+# ---- tooling / sandbox artefacts
+.cache/
+.arena/
+.playwright-cli/
+.DS_Store
+Thumbs.db
+*.log
+
+# ---- local progress exports / secrets
+.env
+.env.*
+*.joblib
+pydrill-progress.json
