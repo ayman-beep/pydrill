@@ -37,3 +37,7 @@ pydrill-progress.json
 
 # local git bundle fallback (not part of the source tree)
 *.bundle
+
+# ssh known_hosts from the sandbox
+.ssh/
+*.zip
