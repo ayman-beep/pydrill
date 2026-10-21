@@ -34,3 +34,6 @@ pydrill-progress.json
 # sandbox artefacts
 .npm/
 .sudo_as_admin_successful
+
+# local git bundle fallback (not part of the source tree)
+*.bundle
