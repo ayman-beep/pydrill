@@ -30,3 +30,7 @@ Thumbs.db
 .env.*
 *.joblib
 pydrill-progress.json
+
+# sandbox artefacts
+.npm/
+.sudo_as_admin_successful
